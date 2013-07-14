@@ -34,7 +34,7 @@ Be sure to write your code to conform to the PSR-2 spec.
 
 ----------
 
-When you are done, push your code to GIT.  Please create a tag called **v1.2** with a message of 'ready for review'.  Be sure your tags are pushed to the remote repository and are visible in GitLab.
+When you are done, push your code to GIT.  Please create a tag called **v1.4** with a message of 'ready for review'.  Be sure your tags are pushed to the remote repository and are visible in GitLab.
 
 Any required communication will again be done on the "wall" for the project so this feature **MUST** be enabled in the settings for each repo.  Once your work from this module has been accepted you'll a) receive credit for completing this module and b) get access to start the next module.
 
