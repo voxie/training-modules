@@ -1,15 +1,19 @@
-#PHP Coding Standards
+#Module 3: PHP Coding Standards
 
-Prior to completing the module below it is highly recommended that you look at the following learning material.  PSR-2 is the PHP coding standard that all new PHP development will conform to at Indatus.  
+Prior to completing the module below it is highly recommended that you look at the following learning material.  
+
+**PSR-2 is the PHP coding standard that all new PHP development will conform to at Indatus.**
 
 * [PHP PSR-2 Standard](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-2-coding-style-guide.md)
 
 
 ## The Test
 
-Create a new branch in your 'php-final' git repo called 'psr-2' and refactor your PHP code to conform to the PSR-2 standard.
+Create a new branch in your 'php-final' git repo called 'psr-2' and refactor your PHP code to conform to the PSR-2 standard.  Be sure to write all your future PHP code to conform to PSR-2.
 
-When you are done, push your code to GIT.  Please create a tag called v1.1 with a message of 'ready for review'.  Be sure your tags are pushed to the remote repository and are visible in GitLab.
+----------
+
+When you are done, push your code to GIT.  Please create a tag called **v1.1** with a message of 'ready for review'.  Be sure your tags are pushed to the remote repository and are visible in GitLab.
 
 Any required communication will again be done on the "wall" for the project so this feature **MUST** be enabled in the settings for each repo.  Once your work from this module has been accepted you'll a) receive credit for completing this module and b) get access to start the next module.
 

@@ -1,4 +1,4 @@
-#PHP Learning Module Test
+#Module 2: General PHP Programming
 
 Prior to completing the module below it is highly recommended that you look at the following learning material.  Note that the content here is PHP 5.4+ specific.
 
@@ -106,12 +106,14 @@ Create a simple PHP application **that does not use an existing framework or 3rd
 1.  Uses the MVC design pattern (limit to 1 model and 1 controller for simplicity)
 2.  Uses a namespace
 4.  Saves information into a MySQL database
-5.  Illustrates Create, Read, Update and Delete functions on a Model.
-6.  Inserts or updates a record into the database using a save() method on the Model.
-7.  Validates properties on the model using a validate() function which returns true or false as to wether or not the model is valid.
-8.  The model's validate() function should feed data to an errors() function that returns an array of errors if any.
-9.  The model's save function should return true or false if a insert / update was successful, and should validate the model prior to attempting to save.  If the model is invalid the save() should not complete and should return false.
-10.  If a model does not save for some reason the user should be returned to the create or update view and be shown the errors.
+5.  Illustrates Create, Read, Update and Delete functions on a Model (all database interaction should happen at the model layer)
+6.  Has static methods on the model for find() and findAll() for fetching model records.
+7.  Inserts or updates a record into the database using a save() method on the Model.
+8.  Deletes the record from the database using a destroy() method on the Model.
+9.  Validates properties on the model using a validate() function which returns true or false as to wether or not the model is valid.
+10.  The model's validate() function should feed data to an errors() function that returns an array of errors if any.
+11.  The model's save function should return true or false if a insert / update was successful, and should validate the model prior to attempting to save.  If the model is invalid the save() should not complete and should return false.
+12.  If a model does not save for some reason the user should be returned to the create or update view and be shown the errors.
 
 ### Wrapping Up
 
