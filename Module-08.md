@@ -22,7 +22,7 @@ Create a new repository in your GitLab namespace called 'Laravel-Test' and commi
 
 Build a Laravel application with the features, functions, entities etc of your choosing as long as the application meets the criteria below.  Be creative and resourceful but at the same time don't take 10 years to build your app.
 
-#### Criteria
+#### Application Criteria
 
 **When your building your application and meeting a specific criteria below you should use a relevant commit message to indicate that your commit is satisfying a particular criteria.**
 
@@ -34,9 +34,9 @@ Build a Laravel application with the features, functions, entities etc of your c
 
 4.  Integrate user authentication
 
-5.  Integrate sending email
+5.  Integrate sending email (with HTML and Plain Text versions of the email)
 
-6.  All your models should have validation, between all your models make sure you have at least one of the following validation rules:
+6.  All your models should have validation.  Between all your models make sure you have at least one of the following validation rules:
 
 	a.  Required
 	b.  Numeric
@@ -47,7 +47,7 @@ Build a Laravel application with the features, functions, entities etc of your c
 	g.  Use a custom error message
 	h.  Custom validation rule
 	
-7.  All models should accound for mass-assignment vulnerabilities by useing the `fillable` or `guarded` properties.
+7.  All models should account for mass-assignment vulnerabilities by using the `fillable` or `guarded` properties.
 
 8.  Make sure your application is protected from the following security vulnerabilities.  The framework may or may not handle some of this for you, verify to be sure.
 
@@ -81,13 +81,7 @@ Build a Laravel application with the features, functions, entities etc of your c
 
 17.  Use 2+ Queues, 1 for sending email (in #5) and one custome queue.
 
-
-
-
-
-
-
-
+18.  Use at least one query scope in your application.
 
 
 
