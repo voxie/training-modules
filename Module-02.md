@@ -120,4 +120,5 @@ Create a simple PHP application **that does not use an existing framework or 3rd
 
 When you are done with all the exercises you should have 2 git repositories in your personal GitLab namespace ('PHP' and 'php-final').  Please create a tag in each of these repos called **v1.2** with a message of 'ready for review'.  Be sure your tags are pushed to the remote repository and are visible in GitLab, then add Brian Webb to both repos with "Developer" permissions.  
 
-Any required communication regarding the 2 repos, including if the work is "accepted" will done on the "wall" for each project so this feature **MUST** be enabled in the settings for each repo.  Once your work from this module has been accepted you'll a) receive credit for completing this module and b) get access to start the next module.
+
+Any required communication will again be done on the "wall" for the project so this feature **MUST** be enabled in the settings for each repo.  Once your work from this module has been accepted move on to the next module.  You **can** move on to the next module prior to approval, but be aware that some modules build on others output so you may be creating more work for yourself if one module's output needs modification to be accepted.

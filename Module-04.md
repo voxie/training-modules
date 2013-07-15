@@ -36,7 +36,6 @@ Be sure to write your code to conform to the PSR-2 spec.
 
 When you are done, push your code to GIT under this branch, then merge this branch back into 'master' (but don't delete this branch).  Please create a tag called **v1.4** with a message of 'ready for review'.  Be sure your tags are pushed to the remote repository and are visible in GitLab.
 
-Any required communication will again be done on the "wall" for the project so this feature **MUST** be enabled in the settings for each repo.  Once your work from this module has been accepted you'll a) receive credit for completing this module and b) get access to start the next module.
-
+Any required communication will again be done on the "wall" for the project so this feature **MUST** be enabled in the settings for each repo.  Once your work from this module has been accepted move on to the next module.  You **can** move on to the next module prior to approval, but be aware that some modules build on others output so you may be creating more work for yourself if one module's output needs modification to be accepted.
 
 
