@@ -1,8 +1,10 @@
 # PHP Learning Modules
 
+
 This branch of the Learning-Modules repository is specific to PHP web development.
 
-##Table Of Contents
+
+###Table Of Contents
 
 1.  GIT
 2.  Programming Basics with PHP
