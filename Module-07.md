@@ -6,7 +6,10 @@ Prior to completing the module below it is highly recommended that you look at t
 * [Practical Normalization](http://support.microsoft.com/kb/283878)
 * [More on Normalization](http://www.princeton.edu/~achaney/tmve/wiki100k/docs/Database_normalization.html)
 * [Real World Normalization Perspective](http://www.codinghorror.com/blog/2008/07/maybe-normalizing-isnt-normal.html)
-* [Laravel's Eloquent ORM: Basic Usage](http://laravel.com/docs/eloquent#basic-usage)
+* [ActiveRecord Design Pattern](https://en.wikipedia.org/wiki/Active_record_pattern)
+* [Laravel's Eloquent ORM: Basic Usage (naming conventions)](http://laravel.com/docs/eloquent#basic-usage)
+* [Entity-Relationship Model > Crows Foot Notation](https://en.wikipedia.org/wiki/Entity–relationship_model#Crow.27s_Foot_Notation)
+* [Indatus Laravel Dev Standards,  See: Migrations / Database](http://helpdesk.indatus.com/KB/a198/laravel-php-framework-development-standards.aspx)
 
 
 ## The Test
@@ -14,7 +17,25 @@ Prior to completing the module below it is highly recommended that you look at t
 
 Create a new branch in your 'php-final' git repo called 'architecture' and commit all the work from this module there. 
 
-1.  FLUSH OUT
+Following the Laravel conventions and patterns for database architectures create an Entity Relationship Diagram (ERD) using Crow's Foot Notation to diagram the Entities and Relationships below.  Be creative and create whatever attributes you think are necessary for each Entity.  Be sure to include necessary "timestamp" attributes for each Entity to conform to the Laravel standard.  Use whatever diagramming tool you like, you could even draw it and take a picture if you like as long as the diagram is clear.
+
+	
+1.  Company
+	a. belongs to: Company Type
+	b. has and belongs to many: Users
+	c. has many companies
+	d. belongs to (0 or 1 Company)
+2.  Company Type
+	a. has many: Companies
+3.  User
+	a. has and belongs to many: Companies
+	b. has and belongs to many: User Types per company
+	c. has one: User Status
+4.  User Status
+	a. has many: Users
+
+	 
+
 
 
 ----------
