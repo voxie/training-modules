@@ -1,4 +1,4 @@
-#Module 3: PHP Coding Standards
+# Module 3: PHP Coding Standards
 
 Prior to completing the module below it is highly recommended that you look at the following learning material.  
 

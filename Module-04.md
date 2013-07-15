@@ -1,4 +1,4 @@
-#Module 4: Testing in PHP
+# Module 4: Testing in PHP
 
 Prior to completing the module below it is highly recommended that you look at the following learning material.  
 
@@ -21,11 +21,11 @@ Be sure to write your code to conform to the PSR-2 spec.
 	b. assert that an error exists for each particular property where validation is failing.
 	c. one by one set each required poperty correctly and assert that the error does not exist.
 	d. when all required properties are set assert that vaildation passes.
-5.  Add a method that tests that the model's save() and destroy() methods are inserting, updating and deleting in the database correctly
+5.  Add a method that tests that the model's `save()` and `destroy()` methods are inserting, updating and deleting in the database correctly
 	a.  assert that the model's database table is empty, or notes the number of records
-	b.  create a new object, popuplate the properties with Faker and call save(), assert that the record was inserted into the database.
-	c.  update the object and call save(), assert that the data in relevant table row has been updated correctly AND that no additional records were inserted.
-	d.  call the destroy() method on the model and assert that the record has been removed from the database table.
+	b.  create a new object, popuplate the properties with Faker and call `save()`, assert that the record was inserted into the database.
+	c.  update the object and call `save()`, assert that the data in relevant table row has been updated correctly AND that no additional records were inserted.
+	d.  call the `destroy()` method on the model and assert that the record has been removed from the database table.
 6.  Refactor your Model's code to use dependency injection and the Repository pattern:
 	a.  Following the Repository pattern add a database access object, and define an interface that speficices the methods and properties required.
 	b.  Refactor your model to use dependency injection and the database access object.

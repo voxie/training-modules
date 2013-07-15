@@ -1,4 +1,4 @@
-#Module 2: General PHP Programming
+# Module 2: General PHP Programming
 
 Prior to completing the module below it is highly recommended that you look at the following learning material.  Note that the content here is PHP 5.4+ specific.
 
@@ -71,6 +71,7 @@ Prior to completing the module below it is highly recommended that you look at t
 **Create a new branch in your PHP git repository called "advanced" and push your code for the following exercises there.  Place all the following code in a folder called "advanced"**
 
 1.  Create an interitance hirarchy composed of 7 classes:
+
 	a.  Computer > Workstation
 	b.  Workstation > Mac
 	c.  Workstation > PC
@@ -97,7 +98,7 @@ Create a new PHP file called main.php which uses these classes. Be creative and 
 
 ### Final
 
-** Create a new Git Repo in your GitLab namespace called "php-final" and put all your code for the following exercise there. **
+**Create a new Git Repo in your GitLab namespace called "php-final" and put all your code for the following exercise there.**
 
 Create a simple PHP application **that does not use an existing framework or 3rd party libraries** that has the characteristics listed below.  
 

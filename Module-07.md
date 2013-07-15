@@ -1,4 +1,4 @@
-#Module 7: Architecture
+# Module 7: Architecture
 
 Prior to completing the module below it is highly recommended that you look at the following learning material.  
 

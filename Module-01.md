@@ -1,4 +1,4 @@
-#Module 1: GIT
+# Module 1: GIT
 
 Prior to completing the module below it is highly recommended that you look at the following learning material.  **Even if you consider yourself a GIT expert, there is material in the resources below that even seasoned GIT users are not aware of.  It only helps you more.**
 
