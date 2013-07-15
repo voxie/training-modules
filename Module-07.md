@@ -21,17 +21,24 @@ Following the Laravel conventions and patterns for database architectures create
 
 	
 1.  Company
+
 	a. belongs to: Company Type
 	b. has and belongs to many: Users
 	c. has many companies
 	d. belongs to (0 or 1 Company)
+	
 2.  Company Type
+
 	a. has many: Companies
+	
 3.  User
+
 	a. has and belongs to many: Companies
 	b. has and belongs to many: User Types per company
 	c. has one: User Status
+	
 4.  User Status
+
 	a. has many: Users
 
 	 
