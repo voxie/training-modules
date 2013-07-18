@@ -43,4 +43,4 @@ You'll need the indatus login for some of this which is on helpdesk.indatus.com 
 26. now get out of the git_test folder to your "community" root, and stage the "git_test" folder, add a commit with the message "first commit with submodule" and push to the remote repo.
 27. Now create a 'v1.0' tag with the message 'ready for review' and push the tag to the remote repo.
 28. Do the same thing with the git_test repo.
-29. Now in both 'community' and 'git_test' repos within GitLab enable "Wall" as a feature and save.  Then go to project members and add Brian Webb.  An automated email will be sent by GitLab and Brian will review the committed code.  Any feedback will be tracked via the "wall" in the git repo.
+29. Now in both 'community' and 'git_test' repos within GitLab enable "Issues" as a feature and save.  Then go to project members and add Brian Webb.  An automated email will be sent by GitLab and Brian will review the committed code.  Any issues will be tracked via the issue tracking feature in the git repo.
