@@ -37,7 +37,7 @@ Prior to completing the module below it is highly recommended that you look at t
 	c.  If the number is the first in the group print out "First number"
 	d.  If the number is the last in the group print out "Last number"
 5.  => Stage, commit and push your changes to GIT.
-6.  Refactor the code to be a foreach loop.
+6.  Refactor the code to be a for loop.
 7.  => Stage, commit and push your changes to GIT.
 8.  Refactor the code to be a while loop.
 9.  => Stage, commit and push your changes to GIT.
