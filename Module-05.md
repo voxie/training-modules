@@ -4,7 +4,7 @@ Prior to completing the module below it is highly recommended that you look at t
 
 **PHPDocumentor2's 2.0 release documentation standard is the standard that new PHP development will conform to at Indatus.**
 
-* [PHPDoc Documentation Standards](https://github.com/phpDocumentor/phpDocumentor2/blob/release-2.0/docs/PSR.md)
+* [PHPDoc Documentation Standards](https://github.com/phpDocumentor/phpDocumentor2/blob/v2.0.0/docs/PSR.md)
 
 
 ## The Test
