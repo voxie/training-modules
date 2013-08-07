@@ -15,7 +15,7 @@ Create a new branch in your 'php-final' git repo called 'codeception' and commit
 1.  Install Codeceoption using Composer
 2.  Using Codeception and your basic MVC application create at least 1 of each of the following tests:
 	a.  Unit Test
-	b.  Functional Test
+	b.  Create a unit test for your controller. (If you were using a pre-built framework this would be a codeception 'Functional Test')
 	c.  Acceptance Test using the PhpBrowser back-end
 	
 3.  => Stage, Commit and push your code to GIT.
