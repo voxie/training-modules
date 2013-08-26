@@ -4,6 +4,10 @@ In completing this module you may use 3rd party libraries to help you accomplish
 
 For this module, create a new GIT branch for your laravel application from Module 8 and call the branch 'rest'.
 
+The link below may provide some valuable insight.
+
+[Designing a Secure REST (Web) API without OAuth](http://www.thebuzzmedia.com/designing-a-secure-rest-api-without-oauth-authentication/)
+
 ### Part 1: Integrating a REST API
 
 1.1) Create a new __resourceful__ controller that obeys proper REST conventions for managing CRUD operations for any Model that you already have in your application.  Alternativley if you'd like you can create a new model for this purpose.  We'll refer to this controller as your 'api controller'.
