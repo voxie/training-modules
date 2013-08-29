@@ -26,9 +26,9 @@ Build a Laravel application with the features, functions, entities etc of your c
 
 **When your building your application and meeting a specific criteria below you should use a relevant commit message to indicate that your commit is satisfying a particular criteria.**
 
-1.  Build your features using Test First Development, don't write any feature code until the failing test is created first.  Write the test, write code to make it pass, then refactor.  Rinse & Repeat.
+1.  Build your features using Test First Development, don't write any feature code until the failing test is created first.  Write the test, write code to make it pass, then refactor.  Rinse & Repeat. Keep in mind however that you CAN overtest your application, see: [Test like the TSA by DHH](http://37signals.com/svn/posts/3159-testing-like-the-tsa)
 
-2.  Use Codeception to build your tests with.
+2.  Use Codeception to build your tests with where it accells, but you can also use PHPUnit with Laravel helpers and other testing packages that make testing easier and faster.
 
 3.  **Follow the [Indatus Laravel framework development standards](http://helpdesk.indatus.com/KB/a198/laravel-php-framework-development-standards.aspx)**.  There is a lot of requirements that will guide your development here.
 
