@@ -33,7 +33,7 @@ You'll need the indatus login for some of this which is on [helpdesk.indatus.com
 16. In the `party` branch add a new file called `family.txt`, add 2 family member's names on line 1 and 2.
 17. Add the `family.txt` file, then stash it, switch to the `master` branch and pop the stash and stage the file in the repo.
 18. Now create another file called `pets.txt` and in it put 2 names of your pets, if you don't have any make them up.
-19. Add both files and commit them with the message "some of my family and pets" and push the changes to the remote repo.
+19. Add both files and commit them with the message "some of my family and pets".
 20. Now take that last commit and split it into 2 commits, 1 for each file with messages "my family" and "my pets".  Then push to the remote repo.
 21. Look at the git log in `oneline` and verify your commit messages.
 22. Now in a new working directory create a totally new git repo called `community`, create a new remote for it in your gitlab account (in your own namespace). Add the remote to your local git repo.
