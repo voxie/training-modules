@@ -68,7 +68,7 @@ Prior to completing the module below it is highly recommended that you look at t
 
 ### 5. Inheritance, Interfaces, Namespaces and Traits
 
-	Create a new branch in your PHP git repository called `advanced` and push your code for the following exercises there.  Place all the following code in a folder called `advanced`.
+Create a new branch in your PHP git repository called `advanced` and push your code for the following exercises there.  Place all the following code in a folder called `advanced`.
 
 1.  Create an interitance hirarchy composed of 7 classes:
 
