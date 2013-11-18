@@ -1,6 +1,6 @@
 # Module 5: PHP Documentation
 
-Prior to completing the module below it is highly recommended that you look at the following learning material.  
+Prior to completing the module below it is highly recommended that you look at the following learning material.
 
 **PHPDocumentor2's 2.0 release documentation standard is the standard that new PHP development will conform to at Indatus.**
 
@@ -10,12 +10,12 @@ Prior to completing the module below it is highly recommended that you look at t
 ## The Test
 
 
-Create a new branch in your 'php-final' git repo called 'documentation' and commit all the work from this module there.  Again be sure to write any code to conform to the PSR-2 standard.
+Create a new branch in your `php-final` git repo called `documentation` and commit all the work from this module there.  Again be sure to write any code to conform to the `PSR-2` standard.
 
 Add documentation to your code that conforms to the documentation spec above.
 
 ----------
 
-When you are done, push your code to GIT under this branch, then merge this branch back into 'master' (but don't delete this branch). Please create a tag called **v1.5** with a message of 'ready for review'.  Be sure your tags are pushed to the remote repository and are visible in GitLab.
+When you are done, push your code to GitLab under this branch, then merge this branch back into `master` (but don't delete this branch). Please create a tag called `v1.5` with a message of 'ready for review'.  Be sure your tags are pushed to the remote repository and are visible in GitLab.
 
 Any required communication will again be done on the "issues" feature for the project so this feature **MUST** be enabled in the settings for each repo.  Once your work from this module has been accepted move on to the next module.  You **can** move on to the next module prior to approval, but be aware that some modules build on others output so you may be creating more work for yourself if one module's output needs modification to be accepted.
