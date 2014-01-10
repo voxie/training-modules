@@ -6,6 +6,7 @@ Prior to completing the module below it is highly recommended that you look at t
 * [Modern Testing In PHP With Codeception](https://tutsplus.com/course/modern-testing-in-php-with-codeception/)
 * [Codeception Documentation](http://codeception.com/docs/01-Introduction)
 
+Before you can run codeception on your Mac, you'll need to add a `date.timezone` configuration to your `/etc/php.ini.default` and rename it to `php.ini`.
 
 ## The Test
 
