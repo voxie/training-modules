@@ -11,7 +11,7 @@ Create a new branch in your GitLab 'Laravel-Test' repo called package and commit
 #### Test requirements:
 
 
-1) Your package should use tempalte or "partial" files to contain the HTML for each gui element.  This will allow you to later update the HTML if needed.
+1) Your package should use template or "partial" files to contain the HTML for each gui element.  This will allow you to later update the HTML if needed.
 
 2) Your package should provide static functions that can be used in your views.  The functions should accept data objects or values and ouput the appropriate GUI element with the data contained in it.
 
