@@ -73,13 +73,13 @@ Build a Laravel application with the features, functions, entities etc of your c
 
 13.  Include at least 2 'resourceful' routes and controllers.
 
-14.  Subscribe to at least one event.  This can be a built in event or a custome event you fire.
+14.  Subscribe to at least one event.  This can be a built in event or a custom event you fire.
 
 15.  Create at least one Facade.
 
 16.  Use pagination at least once.
 
-17.  Use 2+ Queues, 1 for sending email (in #5) and one custome queue.
+17.  Use 2+ Queues, 1 for sending email (in #5) and one custom queue.
 
 18.  Use at least one query scope in your application.
 
