@@ -6,7 +6,7 @@ For this task you will need to build a GUI package that has self-contained funct
 
 It would likely be a good idea to use the Laravel `artisan workbench` tool to develop your package with. 
 
-Create a new branch in your GitLab 'Laravel-Test' repo called package and commit all the work from this module there.  
+Create a new branch in your GitLab 'Laravel-Test' repo called `package` and commit all the work from this module there.  
 
 #### Test requirements:
 
