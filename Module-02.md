@@ -86,7 +86,7 @@ Create a new PHP file called `main.php` which uses these classes. Be creative an
 3.  Overwriting inherited functions
 4.  Overwriting inherited functions but still executing the parent's functionality for that function before implementing the child's logic.
 5.  => Stage, commit and push your code to GitLab.
-6.  Refactor your code to show the use of namespaces using the keywords "use" and "as"
+6.  Refactor your code to show the use of namespaces using the keywords `use` and `as`
 7.  => Stage, commit and push your code to GitLab.
 8.  Now refactor your code to use at least one `interface`.
 9.  => Stage, commit and push your code to GitLab.

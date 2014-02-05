@@ -6,6 +6,7 @@ Prior to completing the module below it is highly recommended that you look at t
 * [Modern Testing In PHP With Codeception](https://tutsplus.com/course/modern-testing-in-php-with-codeception/)
 * [Codeception Documentation](http://codeception.com/docs/01-Introduction)
 
+Before you can run codeception on your Mac, you'll need to add a `date.timezone` configuration to your `/etc/php.ini.default` and rename it to `php.ini`.
 
 ## The Test
 
@@ -18,7 +19,7 @@ Create a new branch in your 'php-final' git repo called 'codeception' and commit
 	b.  Acceptance Test using the PhpBrowser back-end
 	
 3.  => Stage, Commit and push your code to GIT.
-4.  Refactor your Acceptance test settings to use Selenium2 as the back-end.  (Note you may need to use the selenium 2.33 other users have had issues with 2.34)
+4.  Refactor your Acceptance test settings to use Selenium2 as the back-end.
 
 
 ----------
