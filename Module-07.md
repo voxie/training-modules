@@ -53,4 +53,4 @@ Use whatever diagramming tool you like, you could even draw it and take a pictur
 
 When you are done, push your code / files to GIT under this branch, then merge this branch back into 'master' (but don't delete this branch).  Please create a tag called **v1.7** with a message of 'ready for review'.  Be sure your tags are pushed to the remote repository and are visible in GitLab.
 
-Any required communication will again be done on the "issues" feature for the project so this feature **MUST** be enabled in the settings for each repo.  Once your work from this module has been accepted move on to the next module.  You **can** move on to the next module prior to approval, but be aware that some modules build on others output so you may be creating more work for yourself if one module's output needs modification to be accepted.
+Any required communication will again be done on the "issues" feature for the project so this feature **MUST** be enabled in the settings for each repo.  Create an issue stating that this module is ready for review and mention all team leaders and department manager.
