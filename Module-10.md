@@ -65,4 +65,4 @@ For example you may have code like:
 
 When you are done, push your code to GitLab.  Please create a tag called **v2.0** with a message of 'ready for review'.  Be sure your tags are pushed to the remote repository and are visible in GitLab.
 
-Any required communication will again be done on the "issues" feature for the project so this feature **MUST** be enabled in the settings for each repo.
+Any required communication will again be done on the "issues" feature for the project so this feature **MUST** be enabled in the settings for each repo.  Create an issue stating that this module is ready for review and mention all team leaders and department manager.
