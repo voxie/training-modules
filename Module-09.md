@@ -40,4 +40,4 @@ When you are done, push your code to GitLab.  Please create a tag called **rest*
 
 Create a new "issue" for each repo with the message of Ready for Review and assign it to Brian Webb.
 
-Any required communication will again be done on the "issues" feature for the project so this feature **MUST** be enabled in the settings for each repo.  Once your work from this module has been accepted move on to the next module.  You **can** move on to the next module prior to approval, but be aware that some modules build on others output so you may be creating more work for yourself if one module's output needs modification to be accepted.
+Any required communication will again be done on the "issues" feature for the project so this feature **MUST** be enabled in the settings for each repo.  Create an issue stating that this module is ready for review and mention all team leaders and department manager.
