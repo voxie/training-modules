@@ -118,7 +118,7 @@ Create a simple PHP application **that does not use an existing framework or 3rd
 
 ### Wrapping Up
 
-When you are done with all the exercises you should have 2 git repositories in your personal GitLab namespace ('PHP' and 'php-final').  Please create a tag in each of these repos called `v1.2` with a message of 'ready for review'.  Be sure your tags are pushed to the remote repository and are visible in GitLab, then add Brian Webb to both repos with "Developer" permissions.  
+When you are done with all the exercises you should have 2 git repositories in your personal GitLab namespace ('PHP' and 'php-final').  Please create a tag in each of these repos called `v1.2` with a message of 'ready for review'.  Be sure your tags are pushed to the remote repository and are visible in GitLab, then add all team leads and the department manager to both repos with "Developer" permissions.  Create an issue saying the module is ready for review.
 
 
-Any required communication will again be done on the "issues" feature for the project so this feature **MUST** be enabled in the settings for each repo.  Once your work from this module has been accepted move on to the next module.  You **can** move on to the next module prior to approval, but be aware that some modules build on others output so you may be creating more work for yourself if one module's output needs modification to be accepted.
+Any required communication will again be done on the "issues" feature for the project so this feature **MUST** be enabled in the settings for each repo.
