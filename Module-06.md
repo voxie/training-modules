@@ -19,7 +19,7 @@ Create a new branch in your 'php-final' git repo called 'codeception' and commit
 	b.  Acceptance Test using the PhpBrowser back-end
 	
 3.  => Stage, Commit and push your code to GIT.
-4.  Refactor your Acceptance test settings to use Selenium2 as the back-end.
+4.  Refactor your Acceptance test settings to use Codeception's WebDriver as the back-end.
 
 
 ----------
