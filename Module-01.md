@@ -44,4 +44,4 @@ You'll need the indatus login for some of this which is on [helpdesk.indatus.com
 27. Now create a `v1.0` tag with the message 'ready for review' and push the tag to the remote repo.
 28. Do the same thing with the `git_test` repo.
 29. Now in both `community` and `git_test` repos within GitLab enable "Issues" as a feature and save. Then go to project members and add all team leaders and dept. manager.
-30. Create a new issue titled "Review Module 1 - Git Test" and @mention all the team leaders and the department manager in the description. For example, `@tharvey @bkuhl please review`.
+30. In the `community` repo, create a new GitLab Issue titled "Review Module 1 - Git Test" and @mention all the team leaders and the department manager in the description. For example, `@tharvey @bkuhl please review`.
