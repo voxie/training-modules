@@ -39,7 +39,7 @@ You'll need the indatus login for some of this which is on [helpdesk.indatus.com
 22. Now in a new working directory create a totally new git repo called `community`, create a new remote for it in your gitlab account (in your own namespace). Add the remote to your local git repo.
 23. Create a new file called `address.txt` with your address in it, stage, commit and push the changes with a relevant commit message.
 24. Now bring in your `git_test` repo to the `community` repo as a submodule, stage your changes and commit with a relevant commit message.
-25. Now make go into the `git_test` submodule folder, add a file called `todo.txt` and put a todo item in it.  Stage commit and push the file to the repo.
+25. Now go into the `git_test` submodule folder, add a file called `todo.txt` and put a todo item in it.  Stage commit and push the file to the repo.
 26. Now get out of the `git_test` folder to your `community` root, and stage the `git_test` folder, add a commit with the message "first commit with submodule" and push to the remote repo.
 27. Now create a `v1.0` tag with the message 'ready for review' and push the tag to the remote repo.
 28. Do the same thing with the `git_test` repo.
