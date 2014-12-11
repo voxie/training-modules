@@ -3,9 +3,7 @@
 
 This branch of the Learning-Modules repository is specific to PHP web development.
 
-For the purposes of consistency and future development workflow it is recommended that you use the available Vagrant Box for development found at the [vagrant-lamp54-nix](http://gitlab.indatus.com/devops/vagrant-lamp54-nix) GIT repository.  All the documentation you may need to work with this Vagrant Box is available in the [README](http://gitlab.indatus.com/devops/vagrant-lamp54-nix/blob/master/README.md) file of that repository.
-
-
+For the purposes of consistency and future development workflow it is recommended that you use the [indatus/foundry](http://gitlab.indatus.com/core-products/foundry/tree/master) Virtual Box.
 ## Table Of Contents
 
 1.  [GIT](http://gitlab.indatus.com/training/learning-modules/blob/master/Module-01.md)
