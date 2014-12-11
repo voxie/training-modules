@@ -40,4 +40,4 @@ When you are done, push your code to GitLab.  Please create a tag called **rest*
 
 Create a new "issue" for each repo with the message of Ready for Review and assign it to Brian Webb.
 
-Any required communication will again be done on the "issues" feature for the project so this feature **MUST** be enabled in the settings for each repo.  Create an issue stating that this module is ready for review and mention all team leaders and department manager.
+Any required communication will again be done on the "issues" feature for the project so this feature **MUST** be enabled in the settings for each repo.  Create an issue titled "Review Module 9 - REST" and mention all team leaders and department manager.
