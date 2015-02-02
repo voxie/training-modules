@@ -30,7 +30,7 @@ Build a Laravel application with the features, functions, entities etc of your c
 
 2.  Use Codeception to build your tests with where it accells, but you can also use PHPUnit with Laravel helpers and other testing packages that make testing easier and faster.
 
-3.  **Follow the [Indatus Laravel framework development standards](http://helpdesk.indatus.com/KB/a198/laravel-php-framework-development-standards.aspx)**.  There is a lot of requirements that will guide your development here.
+3.  **Follow the [Indatus Laravel framework development standards](https://docstack.io/docs/45)**.  There is a lot of requirements that will guide your development here.
 
 4.  Integrate user authentication
 
