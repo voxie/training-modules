@@ -4,10 +4,6 @@ Prior to completing the module below it is highly recommended that you look at t
 
 * [PHP The Right Way](http://phptherightway.com)
 
-## Setting up your local PHP development environment
-
-[Foundry](https://gitlab.indatus.com/core-products/foundry) is our local development environment for building web applications at Indatus. Request access to the repository and follow the README for setting up this Vagrant box.
-
 ## The Test
 
 
@@ -106,6 +102,9 @@ Create a new PHP file called `main.php` which uses these classes. Be creative an
 Create a simple PHP application **that does not use an existing framework or 3rd party libraries** and has the characteristics listed below.
 
 **Note that this execrcise should be kept as simple as possible, do not develop beyond the feature requirements below.**
+
+> Before you begin building this web application, take a minute to setup [Foundry](https://gitlab.indatus.com/core-products/foundry) and add a new site to `settings.yaml`. Foundry is our local development environment for building web applications at Indatus. Request access to the repository and follow the README for getting setup. Foundry is a homegrown virtual environment that uses [Vagrant](http://vagrantup.com) under the hood. This [Laracasts](https://laracasts.com/lessons/vagrant-simplified) episode is a good primer on Vagrant and VirtualBox.
+Ask one of the other devs for help getting it setup.
 
 1.  Uses the MVC design pattern (limit to 1 model and 1 controller for simplicity)
 2.  Uses a namespace
