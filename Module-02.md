@@ -4,6 +4,9 @@ Prior to completing the module below it is highly recommended that you look at t
 
 * [PHP The Right Way](http://phptherightway.com)
 
+## Setting up your local PHP development environment
+
+[Foundry](https://gitlab.indatus.com/core-products/foundry) is our local development environment for building web applications at Indatus. Request access to the repository and follow the README for setting up this Vagrant box.
 
 ## The Test
 
