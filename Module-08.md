@@ -4,11 +4,8 @@ Prior to completing the module below it is highly recommended that you look at t
 
 * [What's new in Laravel 4](https://tutsplus.com/course/whats-new-in-laravel-4/)
 * [Custom Artisan Commands](https://tutsplus.com/course/custom-artisan-commands-and-you/)
-* [How to write testable and maintainable code in PHP](http://net.tutsplus.com/tutorials/php/how-to-write-testable-and-maintainable-code-in-php/)
-* [Easier testing with Mockery](https://tutsplus.com/tutorial/easier-testing-with-mockery/)
 * [Testing like a boss with Laravel models](http://net.tutsplus.com/tutorials/php/testing-like-a-boss-in-laravel-models/)
 * [Better testing in Laravel](https://tutsplus.com/tutorial/better-testing-in-laravel/)
-* [Modern testing with PHP in codeception](https://tutsplus.com/course/modern-testing-in-php-with-codeception/)
 * [Indatus Laravel framework development standards](http://helpdesk.indatus.com/KB/a198/laravel-php-framework-development-standards.aspx)
 
 
