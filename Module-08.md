@@ -6,7 +6,7 @@ Prior to completing the module below it is highly recommended that you look at t
 * [Custom Artisan Commands](https://tutsplus.com/course/custom-artisan-commands-and-you/)
 * [Testing like a boss with Laravel models](http://net.tutsplus.com/tutorials/php/testing-like-a-boss-in-laravel-models/)
 * [Better testing in Laravel](https://tutsplus.com/tutorial/better-testing-in-laravel/)
-* [Indatus Laravel framework development standards](http://helpdesk.indatus.com/KB/a198/laravel-php-framework-development-standards.aspx)
+* [Indatus Laravel framework development standards](https://docstack.io/docs/45)
 
 
 
