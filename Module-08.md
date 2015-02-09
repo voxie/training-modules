@@ -2,8 +2,6 @@
 
 Prior to completing the module below it is highly recommended that you look at the following learning material.  **Even if you consider yourself a Laravel expert, there is material in the resources below that even seasoned users are not aware of.  It only helps you more.**
 
-* [Laravel Mastry](http://net.tutsplus.com/tutorials/php/laravel-4-mastery/)
-* [Laravel Essentials](https://tutsplus.com/course/laravel-essentials/)
 * [What's new in Laravel 4](https://tutsplus.com/course/whats-new-in-laravel-4/)
 * [Custom Artisan Commands](https://tutsplus.com/course/custom-artisan-commands-and-you/)
 * [How to write testable and maintainable code in PHP](http://net.tutsplus.com/tutorials/php/how-to-write-testable-and-maintainable-code-in-php/)
