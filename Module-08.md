@@ -2,8 +2,8 @@
 
 Prior to completing the module below it is highly recommended that you look at the following learning material.  **Even if you consider yourself a Laravel expert, there is material in the resources below that even seasoned users are not aware of.  It only helps you more.**
 
-* [Laravel 4 from scratch](https://laracasts.com/series/laravel-from-scratch)
-* [What's new in Laravel 4](https://tutsplus.com/course/whats-new-in-laravel-4/)
+* [Laravel 5 Fundamentals](https://laracasts.com/series/laravel-5-fundamentals)
+* [What's new in Laravel 5](https://laracasts.com/series/whats-new-in-laravel-5-1)
 * [Custom Artisan Commands](https://tutsplus.com/course/custom-artisan-commands-and-you/)
 * [Testing like a boss with Laravel models](http://net.tutsplus.com/tutorials/php/testing-like-a-boss-in-laravel-models/)
 * [Better testing in Laravel](https://tutsplus.com/tutorial/better-testing-in-laravel/)
