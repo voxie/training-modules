@@ -4,7 +4,7 @@ Prior to completing the module below it is highly recommended that you look at t
 
 * [Basic Database Normalization](http://databases.about.com/od/specificproducts/a/normalization.htm)
 * [Practical Normalization](http://support.microsoft.com/kb/283878)
-* [More on Normalization](http://www.princeton.edu/~achaney/tmve/wiki100k/docs/Database_normalization.html)
+* [More on Normalization](http://en.wikipedia.org/wiki/Database_normalization)
 * [Real World Normalization Perspective](http://www.codinghorror.com/blog/2008/07/maybe-normalizing-isnt-normal.html)
 * [ActiveRecord Design Pattern](https://en.wikipedia.org/wiki/Active_record_pattern)
 * [Laravel's Eloquent ORM: Basic Usage (naming conventions)](http://laravel.com/docs/eloquent#basic-usage)
