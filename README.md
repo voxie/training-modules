@@ -3,7 +3,8 @@
 
 This branch of the Learning-Modules repository is specific to PHP web development.
 
-For the purposes of consistency and future development workflow it is recommended that you use the [indatus/foundry](http://gitlab.indatus.com/core-products/foundry/tree/master) Virtual Box.
+For the purposes of consistency and future development workflow it is recommended that you use the [Laravel Homestead](http://laravel.com/docs/master/homestead) VM.
+
 ## Table Of Contents
 
 1.  [GIT](http://gitlab.indatus.com/training/learning-modules/blob/master/Module-01.md)
