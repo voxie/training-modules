@@ -4,15 +4,11 @@ Prior to completing the module below it is highly recommended that you look at t
 
 * [Laravel 5 Fundamentals](https://laracasts.com/series/laravel-5-fundamentals)
 * [What's new in Laravel 5](https://laracasts.com/series/whats-new-in-laravel-5-1)
-* [Custom Artisan Commands](https://tutsplus.com/course/custom-artisan-commands-and-you/)
-* [Testing like a boss with Laravel models](http://net.tutsplus.com/tutorials/php/testing-like-a-boss-in-laravel-models/)
-* [Better testing in Laravel](https://tutsplus.com/tutorial/better-testing-in-laravel/)
 * [Indatus Laravel framework development standards](https://docstack.io/docs/45)
 
-
+You're only building a sample application for the purpose of demonstrating knowledge of the various tools in Laravel.  The application concept doesn't need to be something you'd want to show to the world.
 
 ## The Test
-
 
 Create a new repository in your GitLab namespace called 'Laravel-Test' and commit all the work from this module there. 
 
@@ -78,9 +74,6 @@ Build a Laravel application with the features, functions, entities etc of your c
 17.  Use 2+ Queues, 1 for sending email (in #5) and one custom queue.
 
 18.  Use at least one query scope in your application.
-
-
-
 
 ----------
 
