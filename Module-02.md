@@ -103,8 +103,7 @@ Create a simple PHP application **that does not use an existing framework or 3rd
 
 **Note that this execrcise should be kept as simple as possible, do not develop beyond the feature requirements below.**
 
-> Before you begin building this web application, take a minute to setup [Foundry](https://gitlab.indatus.com/core-products/foundry) and add a new site to `settings.yaml`. Foundry is our local development environment for building web applications at Indatus. Request access to the repository and follow the README for getting setup. Foundry is a homegrown virtual environment that uses [Vagrant](http://vagrantup.com) under the hood. This [Laracasts](https://laracasts.com/lessons/vagrant-simplified) episode is a good primer on Vagrant and VirtualBox.
-Ask one of the other devs for help getting it setup.
+> Before you begin building this web application, take a minute to setup [Laravel Homestead](http://laravel.com/docs/master/homestead) if you haven't already.
 
 1.  Uses the MVC design pattern (limit to 1 model and 1 controller for simplicity)
 2.  Uses a namespace
@@ -120,7 +119,6 @@ Ask one of the other devs for help getting it setup.
 
 ### Wrapping Up
 
-When you are done with all the exercises you should have 2 git repositories in your personal GitLab namespace ('PHP' and 'php-final').  Please create a tag in each of these repos called `v1.2` with a message of 'ready for review'.  Be sure your tags are pushed to the remote repository and are visible in GitLab, then add all team leads and the department manager to both repos with "Developer" permissions.  Create an issue titled "Review Module 2 - General PHP Programming".
+When you are done, push your code to Bitbucket.  You should have 2 repos, `PHP` and `php-final` in your personal Bitbucket namespace).  Please create a tag called `v1.2` with a message of 'ready for review'.  Be sure your tags are pushed to the remote repository and are visible in Bitbucket.
 
-
-Any required communication will again be done on the "issues" feature for the project so this feature **MUST** be enabled in the settings for each repo.
+Create an issue titled **Review Module 2 - General PHP Programming** and @mention all team leaders and department head.
