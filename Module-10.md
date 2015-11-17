@@ -4,7 +4,7 @@ Creating packages to hold reusable code is a very important practice.
 
 For this task you will need to build a GUI package that has self-contained functionality.  It should have the ability to be used in your existing Laravel application which is where you'll need to show it's implementation.
 
-Create a new branch in your GitLab 'Laravel-Test' repo called `package` and commit all the work from this module there.  
+Create a new branch in your Bitbucket 'Laravel-Test' repo called `package` and commit all the work from this module there.  
 
 #### Test requirements:
 
@@ -62,6 +62,6 @@ For example you may have code like:
 
 ----------
 
-When you are done, push your code to GitLab.  Please create a tag called **v2.0** with a message of 'ready for review'.  Be sure your tags are pushed to the remote repository and are visible in GitLab.
+When you are done, push your code to Bitbucket.  Please create a tag called `v2.0` with a message of 'ready for review'.  Be sure your tags are pushed to the remote repository and are visible in Bitbucket.
 
-Any required communication will again be done on the "issues" feature for the project so this feature **MUST** be enabled in the settings for each repo.  Create an issue titled "Review Module 10 - Reusable Code in Packages" and mention all team leaders and department manager.
+Create an issue titled **Review Module 10 - Reusable Code in Packages** and @mention all team leaders and department head.
