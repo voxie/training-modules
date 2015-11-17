@@ -10,7 +10,7 @@ You're only building a sample application for the purpose of demonstrating knowl
 
 ## The Test
 
-Create a new repository in your GitLab namespace called 'Laravel-Test' and commit all the work from this module there. 
+Create a new repository in your Bitbucket namespace called 'Laravel-Test' and commit all the work from this module there. 
 
 Build a Laravel application with the features, functions, entities etc of your choosing as long as the application meets the criteria below.  Be creative and resourceful but at the same time don't take 10 years to build your app.
 
@@ -77,6 +77,6 @@ Build a Laravel application with the features, functions, entities etc of your c
 
 ----------
 
-When you are done, push your code to GitLab.  Please create a tag called **v1.8** with a message of 'ready for review'.  Be sure your tags are pushed to the remote repository and are visible in GitLab.
+When you are done, push your code to Bitbucket.  Please create a tag called `v1.8` with a message of 'ready for review'.  Be sure your tags are pushed to the remote repository and are visible in Bitbucket.
 
-Any required communication will again be done on the "issues" feature for the project so this feature **MUST** be enabled in the settings for each repo.  Create an issue titled "Review Module 8 - Laravel PHP Framework" and mention all team leaders and department manager.
+Create an issue titled **Review Module 10 - Laravel PHP Framework** and @mention all team leaders and department head.
