@@ -16,6 +16,6 @@ Add documentation to your code that conforms to the documentation spec above.
 
 ----------
 
-When you are done, push your code to GitLab under this branch, then merge this branch back into `master` (but don't delete this branch). Please create a tag called `v1.5` with a message of 'ready for review'.  Be sure your tags are pushed to the remote repository and are visible in GitLab.
+When you are done, push your code to Bitbucket.  Please create a tag called `v1.5` with a message of 'ready for review'.  Be sure your tags are pushed to the remote repository and are visible in Bitbucket.
 
-Any required communication will again be done on the "issues" feature for the project so this feature **MUST** be enabled in the settings for each repo.  Create an issue titled "Review Module 5 - PHP Documentation" and mention all team leaders and department manager.
+Create an issue titled **Review Module 5 - PHP Docuemntation** and @mention all team leaders and department head.
