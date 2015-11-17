@@ -11,7 +11,7 @@ Prior to completing the module below it is highly recommended that you look at t
 
 Create a new branch in your `php-final` git repo called `TDD` and commit all the work from this module there.
 
-Be sure to write your code to conform to the **PSR-2** spec.
+Be sure to write your code to conform to the (**PSR-2**)[http://www.php-fig.org/psr/psr-2/] spec.
 
 1.  Use composer to install Mockery, PHPUnit and fzaninotto/Faker, your composer.json and composer.lock files should be part of this project.
 2.  Add a folder called `tests` where all your test code will go
@@ -34,6 +34,6 @@ Be sure to write your code to conform to the **PSR-2** spec.
 
 ----------
 
-When you are done, push your code to GitLab under this branch, then merge this branch back into `master` (but don't delete this branch).  Please create a tag called `v1.4` with a message of 'ready for review'.  Be sure your tags are pushed to the remote repository and are visible in GitLab.
+When you are done, push your code to Bitbucket.  Please create a tag called `v1.4` with a message of 'ready for review'.  Be sure your tags are pushed to the remote repository and are visible in Bitbucket.
 
-Any required communication will again be done on the "issues" feature for the project so this feature **MUST** be enabled in the settings for each repo.  Create an issue titled "Review Module 4 - Testing in PHP" and mention all team leaders and department manager.
+Create an issue titled **Review Module 5 - Testing in PHP** and @mention all team leaders and department head.
