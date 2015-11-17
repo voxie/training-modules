@@ -10,7 +10,7 @@ Prior to completing the module below it is highly recommended that you look at t
 * Tutsplus.com
   * [Git Essentials](https://tutsplus.com/course/git-essentials)
 
-You'll need the indatus login for some of this which is on [helpdesk.indatus.com](http://helpdesk.indatus.com) (INDATUS > IT > Development > Learning Resources > Paid Resource Logins).  Email bwebb@indatus.com if you encounter any issues.
+You'll need the indatus login for some of this which is on [https://docstack.io/docs/124](https://docstack.io/docs/124).  Email your team lead or department head if you have any questions.
 
 
 ## The Test
