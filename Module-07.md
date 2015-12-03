@@ -7,9 +7,8 @@ Prior to completing the module below it is highly recommended that you look at t
 * [More on Normalization](http://en.wikipedia.org/wiki/Database_normalization)
 * [Real World Normalization Perspective](http://www.codinghorror.com/blog/2008/07/maybe-normalizing-isnt-normal.html)
 * [ActiveRecord Design Pattern](https://en.wikipedia.org/wiki/Active_record_pattern)
-* [Laravel's Eloquent ORM: Basic Usage (naming conventions)](http://laravel.com/docs/eloquent#basic-usage)
+* [Eloquent Model Conventions](http://laravel.com/docs/master/eloquent#defining-models)
 * [Entity-Relationship Model > Crows Foot Notation](https://en.wikipedia.org/wiki/Entity–relationship_model#Crow.27s_Foot_Notation)
-* [Indatus Laravel Dev Standards,  See: Migrations / Database](http://helpdesk.indatus.com/KB/a198/laravel-php-framework-development-standards.aspx)
 
 
 ## The Test
