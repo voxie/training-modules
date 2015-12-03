@@ -17,12 +17,14 @@ Create a new branch in your Bitbucket 'Laravel-Test' repo called `package` and c
 Example blade view code (note you don't have to use these namespaces and class names, they are just for example):
 
 ````
-{{ \Indatus\GuiLibrary\Table::summary($multiDimArray, $options); }}
+{!! \Indatus\GuiLibrary\Table::summary($multiDimArray, $options); !!}
 
-{{ \Indatus\GuiLibrary\Button::normal('click me', $target); }}
+{!! \Indatus\GuiLibrary\Button::normal('click me', $target); !!}
 
-{{ \Indatus\GuiLibrary\Link::normal('link to something', $target); }}
+{!! \Indatus\GuiLibrary\Link::normal('link to something', $target); !!}
 ````
+
+*Now would be a good time to review the difference between `{{` and `{!!` in Blade.*
 
 #### Required GUI Elements
 
@@ -48,8 +50,8 @@ For example you may have code like:
 <html>
   <head>
     <title>Test</title>
-    {{ \Indatus\GuiLibrary\Asset::container('mypackage')->styles(); }}
-    {{ \Indatus\GuiLibrary\Asset::container('mypackage')->scripts(); }}
+    {!! \Indatus\GuiLibrary\Asset::container('mypackage')->styles(); !!}
+    {!! \Indatus\GuiLibrary\Asset::container('mypackage')->scripts(); !!}
   </head>
 ````
   
