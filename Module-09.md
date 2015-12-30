@@ -38,4 +38,4 @@ Create a new git repo called 'rest-client-ex'.  In this repo you will create a c
 
 When you are done, push your code to Bitbucket.  Please create a tag called `v2.0` with a message of 'ready for review' in both your laravel app repo and the new `rest-client-ex` repo.  Be sure your tags are pushed to the remote repository and are visible in Bitbucket.
 
-Create an issue titled **Review Module 10 - REST** and @mention all team leaders and department head.
+Create an issue titled **Review Module 10 - REST** and @mention your mentor and team leader.
