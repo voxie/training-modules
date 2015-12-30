@@ -66,4 +66,4 @@ For example you may have code like:
 
 When you are done, push your code to Bitbucket.  Please create a tag called `v2.0` with a message of 'ready for review'.  Be sure your tags are pushed to the remote repository and are visible in Bitbucket.
 
-Create an issue titled **Review Module 10 - Reusable Code in Packages** and @mention all team leaders and department head.
+Create an issue titled **Review Module 10 - Reusable Code in Packages** and @mention your mentor and team leader.
