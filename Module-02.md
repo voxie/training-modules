@@ -121,4 +121,4 @@ Create a simple PHP application **that does not use an existing framework or 3rd
 
 When you are done, push your code to Bitbucket.  You should have 2 repos, `PHP` and `php-final` in your personal Bitbucket namespace).  Please create a tag called `v1.2` with a message of 'ready for review'.  Be sure your tags are pushed to the remote repository and are visible in Bitbucket.
 
-Create an issue titled **Review Module 2 - General PHP Programming** and @mention all team leaders and department head.
+Create an issue titled **Review Module 2 - General PHP Programming** and @mention your mentor and team leader.
