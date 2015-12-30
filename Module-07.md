@@ -52,4 +52,4 @@ Use whatever diagramming tool you like, you could even draw it and take a pictur
 
 When you are done, push your code / files to Bitbucket.  Please create a tag called `v1.7` with a message of 'ready for review'.  Be sure your tags are pushed to the remote repository and are visible in Bitbucket.
 
-Create an issue titled **Review Module 7 - Architecture** and @mention all team leaders and department head.
+Create an issue titled **Review Module 7 - Architecture** and @mention your mentor and team leader.
