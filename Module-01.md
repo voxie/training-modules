@@ -44,4 +44,4 @@ You'll need the indatus login for some of this which is on [https://docstack.io/
 
 When you are done, push your changes to Bitbucket.  Please create a tag called `v1.0` with a message of 'ready for review' in both the `git_test` and `community` repos.  Be sure your tags are pushed to the remote repository and are visible in Bitbucket.
 
-In the `community` repo, create an issue titled **Review Module 1 - Git Test** and @mention all team leaders and department head.
+In the `community` repo, create an issue titled **Review Module 1 - Git Test** and @mention your mentor and team leader.
