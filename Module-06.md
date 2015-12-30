@@ -26,4 +26,4 @@ Create a new branch in your 'php-final' git repo called 'codeception' and commit
 
 When you are done, push your code to Bitbucket.  Please create a tag called `v1.6` with a message of 'ready for review'.  Be sure your tags are pushed to the remote repository and are visible in Bitbucket.
 
-Create an issue titled **Review Module 6 - Codeception** and @mention all team leaders and department head.
+Create an issue titled **Review Module 6 - Codeception** and @mention your mentor and team leader.
