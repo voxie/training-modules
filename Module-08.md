@@ -79,4 +79,4 @@ Build a Laravel application with the features, functions, entities etc of your c
 
 When you are done, push your code to Bitbucket.  Please create a tag called `v1.8` with a message of 'ready for review'.  Be sure your tags are pushed to the remote repository and are visible in Bitbucket.
 
-Create an issue titled **Review Module 10 - Laravel PHP Framework** and @mention all team leaders and department head.
+Create an issue titled **Review Module 10 - Laravel PHP Framework** and @mention your mentor and team leader.
