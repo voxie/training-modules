@@ -23,20 +23,24 @@ Prior to completing the module below it is highly recommended that you look at t
 4. Use whatever diagramming tool you like. You could even draw it and take a picture if you like, as long as the diagram is clear.
 
 ### Company
+
 - belongs to: Company Type
 - has and belongs to many: Users
 - has many companies
 - belongs to (0 or 1 Company)
 
 ### Company Type
+
 - has many: Companies
 
 ### User
+
 - has and belongs to many: Companies
 - has and belongs to many: User Types per company
 - has one User: Status
 
 ### User Status
+
 - has many: Users
 
 ***
