@@ -9,14 +9,17 @@ Prior to completing the module below it is highly recommended that you look at t
 Login creds for the following tutorials can be found [here](https://bitbucket.org/levelone-dev/training-web-modules). Email your team lead or department head if you have any questions.
 
 Official Documentation
+
 - [Git's Official Documentation Book](http://git-scm.com/book)
 
 Code School
+
 - [Try Git](http://www.codeschool.com/courses/try-git)
 - [Git Real](http://www.codeschool.com/courses/git-real)
 - [Git Real 2](http://www.codeschool.com/courses/git-real-2)
 
 Tuts+
+
 - [Git Essentials](https://tutsplus.com/course/git-essentials)
 
 ***

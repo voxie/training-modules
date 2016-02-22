@@ -5,6 +5,7 @@
 ## Getting Started
 
 Prior to completing the module below it is highly recommended that you look at the following learning material (Note that the content here is PHP 5.4+ specific):
+
 - [PHP The Right Way](http://phptherightway.com)
 
 ***
