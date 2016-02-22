@@ -29,15 +29,15 @@ Prior to completing the module below it is highly recommended that you look at t
 ### Loops & Control Structures
 
 1. Create a new file called `loop-control.php` and inside create an array called `numbers` which contains integer values between `0` and `100`, with a step of `3` between each number (eg. `0, 3, 6, 9, 12`). Do this with the least amount of code you can.
-2. Now create a `foreach` loop to iterate over the array, inside the `foreach` loop add logic to do the following *without* using an `if-else` statement:  
-  - If the number is 3, print `"Three"` one (1) time  
-  - If the number is 9, print `"Nine"` three (3) times  
-  - If the number is 15, print `"Fifteen"` five (5) times  
+2. Now create a `foreach` loop to iterate over the array, inside the `foreach` loop add logic to do the following *without* using an `if-else` statement:
+    - If the number is 3, print `"Three"` one (1) time  
+    - If the number is 9, print `"Nine"` three (3) times  
+    - If the number is 15, print `"Fifteen"` five (5) times  
 3. Now refactor the logic inside the `foreach` loop to do the following (`if` and `else` can be used now):  
-  - If the number is a multiple of `7` print out "Sevens are lucky, this number has X", where `X` is the number multiples of `7` represented by the number  
-  - Otherwise, if the number is a multiple of `10`, print out `"X is a round number"`, where `X` is the number  
-  - If the number is the first in the group, print out `"First number"`  
-  - If the number is the last in the group, print out `"Last number"`  
+    - If the number is a multiple of `7` print out "Sevens are lucky, this number has X", where `X` is the number multiples of `7` represented by the number  
+    - Otherwise, if the number is a multiple of `10`, print out `"X is a round number"`, where `X` is the number  
+    - If the number is the first in the group, print out `"First number"`  
+    - If the number is the last in the group, print out `"Last number"`  
 4. Refactor the code to be a for loop.
 5. Refactor the code to be a while loop.
 6. Refactor the code to be a do-while loop.
@@ -49,10 +49,10 @@ Prior to completing the module below it is highly recommended that you look at t
 3. Use all of the functions and print out the result, showing how you would pass arguments to the functions by value and by reference.
 4. Create a function which takes two (2) comparison parameters and a third boolean parameter defaulting to false, which tells the function whether or not to compare the data type as well. Have the function print out a string that tells if the parameters are equal or not, and if they are equal in datatype if the third parameter was true.
 5. Use the `comparison` function and pass in the following parameters:
-  - `4, "4"`  
-  - `5, "5", true`  
-  - `4, 4.0`  
-  - `5. 5.0, true`  
+    - `4, "4"`  
+    - `5, "5", true`  
+    - `4, 4.0`  
+    - `5. 5.0, true`  
 
 ### Classes
 
@@ -66,22 +66,22 @@ Prior to completing the module below it is highly recommended that you look at t
 Create a new branch in your PHP Git repository called `advanced` and push your code for the following exercises there. Place all the following code in a folder called `advanced`.
 
 1. Create an inheritance hierarchy composed of six (6) classes:
-  - Computer > Workstation
-  - Workstation > Mac
-  - Workstation > PC
-  - Computer > Server
-  - Server > WebServer
-  -	Server > DatabaseServer
+    - Computer > Workstation
+    - Workstation > Mac
+    - Workstation > PC
+    - Computer > Server
+    - Server > WebServer
+    -	Server > DatabaseServer
 2. Create a new PHP file called `main.php` which uses these classes. Be creative and show the following concepts (you can simply echo strings for the function logic):
-  - Public, Protected and Private functions
-  - Public, Protected and Private properties
-  - Overwriting inherited functions
-  - Overwriting inherited functions but still executing the parent's functionality for that function before implementing the child's logic
-  - Refactor your code to show the use of namespaces using the keywords `use` and `as`
-  - Now refactor your code to use at least one (1) `interface`
-  - Now refactor your code to include at least one (1) `trait` which should contain a function that executes then extends a super class' functionality
-  - Now refactor your code to include at least three (3) `closures`. If your code already has this, add three (3) more
-  - Stage, commit and push your changes **with a commit message of `closures`**
+    - Public, Protected and Private functions
+    - Public, Protected and Private properties
+    - Overwriting inherited functions
+    - Overwriting inherited functions but still executing the parent's functionality for that function before implementing the child's logic
+    - Refactor your code to show the use of namespaces using the keywords `use` and `as`
+    - Now refactor your code to use at least one (1) `interface`
+    - Now refactor your code to include at least one (1) `trait` which should contain a function that executes then extends a super class' functionality
+    - Now refactor your code to include at least three (3) `closures`. If your code already has this, add three (3) more
+    - Stage, commit and push your changes **with a commit message of `closures`**
 
 ### Final
 
