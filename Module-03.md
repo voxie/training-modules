@@ -5,6 +5,7 @@
 ## Getting Started
 
 Prior to completing the module below it is highly recommended that you look at the following learning material:
+
 - [PHP PSR-2 Standard](http://www.php-fig.org/psr/psr-2/)
 
 ***

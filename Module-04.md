@@ -5,6 +5,7 @@
 ## Getting Started
 
 Prior to completing the module below it is highly recommended that you look at the following learning material:
+
 - [Test-Driven PHP](http://net.tutsplus.com/sessions/test-driven-php/)
 - [How to Write Testable and Maintainable Code in PHP](http://net.tutsplus.com/tutorials/php/how-to-write-testable-and-maintainable-code-in-php/)
 - [Easier Testing With Mockery](https://tutsplus.com/tutorial/easier-testing-with-mockery/)
