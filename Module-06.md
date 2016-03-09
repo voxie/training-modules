@@ -21,13 +21,13 @@ Create a new branch in your 'php-final' Git repo called `codeception` and commit
 2. Using Codeception and your basic MVC application create at least 1 of each of the following tests:
     - Unit Test
 	  - Acceptance Test using the PhpBrowser back-end
-3. Stage, commit and push your code to Bitbucket.
+3. Stage, commit and push your code to GitHub.
 4. Refactor your acceptance test settings to use Codeception's WebDriver as the back-end.
 
 ***
 
 ## Wrapping Up
 
-When you are done, push your code to Bitbucket. Please create a tag called `v1.6` with a message of `"ready for review"`.  Be sure your tags are pushed to the remote repository and are visible in Bitbucket.
+When you are done, push your code to GitHub. Please create a tag called `v1.6` with a message of `"ready for review"`.  Be sure your tags are pushed to the remote repository and are visible in GitHub.
 
 Create an issue titled **Review Module 6 - Advanced TDD: Codeception** and `@mention` your mentor and team leader.

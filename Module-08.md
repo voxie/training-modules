@@ -8,7 +8,7 @@ Prior to completing the module below it is highly recommended that you look at t
 
 - [Laravel 5 Fundamentals](https://laracasts.com/series/laravel-5-fundamentals)
 - [What's new in Laravel 5](https://laracasts.com/series/whats-new-in-laravel-5-1)
-- [Indatus Laravel framework development standards](https://bitbucket.org/levelone-dev/coding-standards/src/4a7feb42b5f096613524444bbb53f04944d6e550/laravel-framework-standards.md?fileviewer=file-view-default)
+- [Indatus Laravel framework development standards](https://GitHub.org/levelone-dev/coding-standards/src/4a7feb42b5f096613524444bbb53f04944d6e550/laravel-framework-standards.md?fileviewer=file-view-default)
 
 _You're only building a sample application for the purpose of demonstrating knowledge of the various tools in Laravel. The application concept doesn't need to be something you'd want to show to the world._
 
@@ -16,7 +16,7 @@ _You're only building a sample application for the purpose of demonstrating know
 
 ## The Test
 
-1. Create a new repository in your Bitbucket namespace called `Laravel-Test`, and commit all the work from this module there.
+1. Create a new repository in your GitHub namespace called `Laravel-Test`, and commit all the work from this module there.
 2. Build a Laravel application with the features, functions, entities etc of your choosing as long as the application meets the criteria below. Be creative and resourceful but at the same time don't take 10 years to build your app.
 
 **Application Criteria**
@@ -64,6 +64,6 @@ When building your application and meeting a specific criteria below, you should
 
 ## Wrapping Up
 
-When you are done, push your code to Bitbucket. Please create a tag called `v1.8` with a message of `"ready for review"`.  Be sure your tags are pushed to the remote repository and are visible in Bitbucket.
+When you are done, push your code to GitHub. Please create a tag called `v1.8` with a message of `"ready for review"`.  Be sure your tags are pushed to the remote repository and are visible in GitHub.
 
 Create an issue titled **Review Module 10 - Laravel PHP Framework** and `@mention` your mentor and team leader.
