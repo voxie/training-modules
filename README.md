@@ -20,16 +20,3 @@ This branch of the training modules repository is specific to PHP web developmen
 8. [Laravel PHP Framework](https://bitbucket.org/levelone-dev/training-web-modules/src/master/Module-08.md)
 9. [REST](https://bitbucket.org/levelone-dev/training-web-modules/src/master/Module-09.md)
 10. [Reusable Code in Packages](https://bitbucket.org/levelone-dev/training-web-modules/src/master/Module-10.md)
-
-***
-
-## Extras
-
-### Tutorial Credentials
-
-| Site           | Username          | Password   |
-| -------------- | ----------------- | ---------- |
-| tutsplus.com   | indatus1          | 2getMein2! |
-| codeschool.com | IndatusDev1       | 2getMein2! |
-| laracasts.com  | bwebb@indatus.com | 2getMein2! |
-| egghead.io     | bwebb@indatus.com | 2getMein2! |
