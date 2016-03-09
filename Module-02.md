@@ -16,7 +16,7 @@ Prior to completing the module below it is highly recommended that you look at t
 
 ### Variables, Constants and Strings
 
-1. Create a new Git repo in your Bitbucket account under your namespace called `PHP`. All the code for this module should be committed there.
+1. Create a new Git repo in your GitHub account under your namespace called `PHP`. All the code for this module should be committed there.
 2. Create a file called `constants.php` and define 5 PHP constants there via the `define()` method. Assign some constants string values and some integer values. The integer values should be between one (1) and five (5).
 3. Stage, commit and push your changes.
 4. Create a new file called `main.php`. In the `main.php` file bring in the constants.php file in a way that will make it required and that it will be brought in only one time.
@@ -85,7 +85,7 @@ Create a new branch in your PHP Git repository called `advanced` and push your c
 
 ### Final
 
-1. Create a new Git Repo in your Bitbucket namespace called `php-final` and put all your code for the following exercise there.
+1. Create a new Git Repo in your GitHub namespace called `php-final` and put all your code for the following exercise there.
 2. Create a simple PHP application **that does not use an existing framework or 3rd party libraries** and has the characteristics listed below.
 3. Note that this exercise should be kept as simple as possible. **Do not develop beyond the feature requirements below.**
 
@@ -109,6 +109,6 @@ Create a new branch in your PHP Git repository called `advanced` and push your c
 
 ## Wrapping Up
 
-When you are finished, push your code to Bitbucket. You should have two (2) repos, `PHP` and `php-final` in your personal Bitbucket namespace. Create a tag called `v1.2` with a message of `"ready for review"`. Be sure your tags are pushed to the remote repository and are visible in Bitbucket.
+When you are finished, push your code to GitHub. You should have two (2) repos, `PHP` and `php-final` in your personal GitHub namespace. Create a tag called `v1.2` with a message of `"ready for review"`. Be sure your tags are pushed to the remote repository and are visible in GitHub.
 
 Create an issue titled **Review Module 2 - Programming Basics with PHP** and `@mention` your mentor and team leader.

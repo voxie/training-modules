@@ -29,12 +29,12 @@ Tuts+
 Note: This module primarily assumes you are using Terminal, and may not cover necessary or extra steps you might need to take when using Git client (such as SourceTree or Tower).
 
 1. Init a new `local` git repo called `git_test`.
-2. Create a `remote` repository in your personal Bitbucket namespace called `git_test`, and add it as a remote repo (in Terminal or your Git client).
+2. Create a `remote` repository in your personal GitHub namespace called `git_test`, and add it as a remote repo (in Terminal or your Git client).
 3. Create a new file called `friends.txt` with the first and last name of 5 people on lines 1-5.
 4. Add the file to the local repo.
 5. Commit the file to the repo with a message of, "these are my friends".
 6. Push your changes to the `remote` repo.
-7. Go into Bitbucket, view the `friends.txt` file, edit it to add a 6th friend, and commit it in the browser with the message, "added another friend".
+7. Go into GitHub, view the `friends.txt` file, edit it to add a 6th friend, and commit it in the browser with the message, "added another friend".
 8. Next, pull the code to your `local` repo.
 9. Create a branch in `local` called `party`, and switch to it (`checkout`).
 10. Now, in the `party` branch, add 4 more friends' names to `friends.txt` (for a total of 10). Commit those changes with a message of, "adding more friends for the party".
@@ -49,7 +49,7 @@ Note: This module primarily assumes you are using Terminal, and may not cover ne
 19. Commit that file (there should now be two), with the message "some of my family and pets".
 20. Edit the current staged commit and split it into 2 separate commits, 1 for each file with messages, "my family", for family.txt and, "my pets", for pets.txt. Then, push to the remote repo.
 21. Look at the git log in `oneline` and verify your commit messages.
-22. In a new working (`local`) directory, create a totally new git repo called `community`. Create a new repo of the same name in your Bitbucket (`remote`) account (in your own namespace). Add the `remote` to your `local` git repo.
+22. In a new working (`local`) directory, create a totally new git repo called `community`. Create a new repo of the same name in your GitHub (`remote`) account (in your own namespace). Add the `remote` to your `local` git repo.
 23. Create a new file (in `local`) called, `address.txt` with your address in it. Stage, commit, and push the changes with a relevant commit message.
 24. Next, bring in your `git_test` repo to the `community` repo as a submodule. Stage your changes and commit with a relevant commit message.
 25. Now, go into the `git_test` submodule folder, add a file called `todo.txt` and put a todo item in it. Stage, commit, and push the file (to the `git_test` repo).
@@ -59,6 +59,6 @@ Note: This module primarily assumes you are using Terminal, and may not cover ne
 
 ## Wrapping Up
 
-When you are done, verify you have pushed your changes to Bitbucket. Please create a tag called `v1.0` with a message of "ready for review" in both the `git_test` and `community` repos. Be sure your tags are pushed to the remote repository and are visible in Bitbucket.
+When you are done, verify you have pushed your changes to GitHub. Please create a tag called `v1.0` with a message of "ready for review" in both the `git_test` and `community` repos. Be sure your tags are pushed to the remote repository and are visible in GitHub.
 
 In the `community` repo, create an issue titled **Review Module 1 - Git Basics** and `@mention` your mentor and team leader.
