@@ -18,6 +18,6 @@ Create a new branch in your `php-final` git repo called `psr-2` and refactor you
 
 ## Wrapping Up
 
-When you are done, push your code to Bitbucket. Please create a tag called `v1.3` with a message of `"ready for review"`. Be sure your tags are pushed to the remote repository and are visible in Bitbucket.
+When you are done, push your code to GitHub. Please create a tag called `v1.3` with a message of `"ready for review"`. Be sure your tags are pushed to the remote repository and are visible in GitHub.
 
 Create an issue titled **Review Module 3 - PHP Coding Standards** and `@mention` your mentor and team leader.

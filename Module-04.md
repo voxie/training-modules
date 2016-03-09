@@ -8,6 +8,7 @@ Prior to completing the module below it is highly recommended that you look at t
 
 - [Test-Driven PHP](http://net.tutsplus.com/sessions/test-driven-php/)
 - [How to Write Testable and Maintainable Code in PHP](http://net.tutsplus.com/tutorials/php/how-to-write-testable-and-maintainable-code-in-php/)
+- [Laracasts: Testing Jargon](https://laracasts.com/series/testing-jargon)
 - [Easier Testing With Mockery](https://tutsplus.com/tutorial/easier-testing-with-mockery/)
 
 ***
@@ -39,6 +40,6 @@ Prior to completing the module below it is highly recommended that you look at t
 
 ## Wrapping Up
 
-When you are done, push your code to Bitbucket. Please create a tag called `v1.4` with a message of `"ready for review"`. Be sure your tags are pushed to the remote repository and are visible in Bitbucket.
+When you are done, push your code to GitHub. Please create a tag called `v1.4` with a message of `"ready for review"`. Be sure your tags are pushed to the remote repository and are visible in GitHub.
 
 Create an issue titled **Review Module 5 - Testing Driven Development** and `@mention` your mentor and team leader.

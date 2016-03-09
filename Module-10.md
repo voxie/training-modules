@@ -6,7 +6,7 @@
 
 Creating packages to hold reusable code is a very important practice. For this task you will need to build a GUI package that has self-contained functionality. It should have the ability to be used in your existing Laravel application which is where you'll need to show its implementation.
 
-Create a new branch in your Bitbucket 'Laravel-Test' repo called `package` and commit all the work from this module there.
+Create a new branch in your GitHub 'Laravel-Test' repo called `package` and commit all the work from this module there.
 
 ***
 
@@ -58,6 +58,6 @@ _Now would be a good time to review the difference between `{{` and `{!!` in Bla
 
 ## Wrapping Up
 
-When you are done, push your code to Bitbucket. Please create a tag called `v2.0` with a message of `"ready for review"`. Be sure your tags are pushed to the remote repository and are visible in Bitbucket.
+When you are done, push your code to GitHub. Please create a tag called `v2.0` with a message of `"ready for review"`. Be sure your tags are pushed to the remote repository and are visible in GitHub.
 
 Create an issue titled **Review Module 10 - Reusable Code in Packages** and `@mention` your mentor and team leader.
