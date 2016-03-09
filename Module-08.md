@@ -8,7 +8,7 @@ Prior to completing the module below it is highly recommended that you look at t
 
 - [Laravel 5 Fundamentals](https://laracasts.com/series/laravel-5-fundamentals)
 - [What's new in Laravel 5](https://laracasts.com/series/whats-new-in-laravel-5-1)
-- [Indatus Laravel framework development standards](https://bitbucket.org/levelone-dev/coding-standards/src/4a7feb42b5f096613524444bbb53f04944d6e550/laravel-framework-standards.md?fileviewer=file-view-default)
+- [Realpage Louisville Laravel framework development standards](https://bitbucket.org/levelone-dev/coding-standards/src/4a7feb42b5f096613524444bbb53f04944d6e550/laravel-framework-standards.md?fileviewer=file-view-default)
 
 _You're only building a sample application for the purpose of demonstrating knowledge of the various tools in Laravel. The application concept doesn't need to be something you'd want to show to the world._
 

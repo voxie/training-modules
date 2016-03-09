@@ -23,9 +23,9 @@ Example blade view code (note: you don't have to use these namespaces and class 
 _Now would be a good time to review the difference between `{{` and `{!!` in Blade._
 
 ````
-{!! \Indatus\GuiLibrary\Table::summary($multiDimArray, $options); !!}
-{!! \Indatus\GuiLibrary\Button::normal('click me', $target); !!}
-{!! \Indatus\GuiLibrary\Link::normal('link to something', $target); !!}
+{!! \RealpageLouisville\GuiLibrary\Table::summary($multiDimArray, $options); !!}
+{!! \RealpageLouisville\GuiLibrary\Button::normal('click me', $target); !!}
+{!! \RealpageLouisville\GuiLibrary\Link::normal('link to something', $target); !!}
 ````
 
 ### Required GUI Elements
@@ -44,8 +44,8 @@ _Now would be a good time to review the difference between `{{` and `{!!` in Bla
   <html>
     <head>
       <title>Test</title>
-      {!! \Indatus\GuiLibrary\Asset::container('mypackage')->styles(); !!}
-      {!! \Indatus\GuiLibrary\Asset::container('mypackage')->scripts(); !!}
+      {!! \RealpageLouisville\GuiLibrary\Asset::container('mypackage')->styles(); !!}
+      {!! \RealpageLouisville\GuiLibrary\Asset::container('mypackage')->scripts(); !!}
     </head>
   ````
 3. **README**: Your package must include a `README.md` file written in Markdown syntax that includes documentation on how to install your package as well as code usage examples.
