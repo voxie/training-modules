@@ -38,33 +38,33 @@ Resources and articles:
     machines handle state.
 
 13. Commit your changes and push up.
-- Create a new _Dockerfile_ that extends the `alpine:3.3` and installs `bash`.
-- Build a new image with the tag `realpage/alpine-bash:3.3` using your new _Dockerfile_.
-- Attempt to run bash inside of the new `realpage/alpine-bash:3.3` container, and paste the output into _docker-module.txt_.
-- Exit the container.
-- Commit your changes and push up.
-- Create a new executable file called _welcome.sh_ containing the following:
+14. Create a new _Dockerfile_ that extends the `alpine:3.3` and installs `bash`.
+15. Build a new image with the tag `realpage/alpine-bash:3.3` using your new _Dockerfile_.
+16. Attempt to run bash inside of the new `realpage/alpine-bash:3.3` container, and paste the output into _docker-module.txt_.
+17. Exit the container.
+18. Commit your changes and push up.
+19. Create a new executable file called _welcome.sh_ containing the following:
 ```
 #!/bin/bash
 echo 'Hello, World!'
 ```
-- Update the _Dockerfile_ to that _welcome.sh_ is added to `/home/welcome.sh` when the container is built.
-- Rebuild the container following the the changes.
-- Run the _welcome.sh_ script within the container using `docker run`, and paste the output into _docker-module.txt_.
-- Commit your changes and push up.
-- Update the _Dockerfile_ so that it outputs "Hello, World!" when only running `docker run realpage/alpine-bash:3.3`.
-- Rebuild the container and run it via `docker run realpage/alpine-bash:3.3`.
-- Paste the output into _docker-module.txt_.
-- Commit your changes and push up.
-- Pull down the `dockercloud/hello-world` image. You can see the _Dockerfile_ for this image [here](docker pull dockercloud/hello-world).
-- Run the `dockercloud/hello-world` image without any arguments or flags.
+20. Update the _Dockerfile_ to that _welcome.sh_ is added to `/home/welcome.sh` when the container is built.
+21. Rebuild the container following the the changes.
+22. Run the _welcome.sh_ script within the container using `docker run`, and paste the output into _docker-module.txt_.
+23. Commit your changes and push up.
+24. Update the _Dockerfile_ so that it outputs "Hello, World!" when only running `docker run realpage/alpine-bash:3.3`.
+25. Rebuild the container and run it via `docker run realpage/alpine-bash:3.3`.
+26. Paste the output into _docker-module.txt_.
+27. Commit your changes and push up.
+28. Pull down the `dockercloud/hello-world` image. You can see the _Dockerfile_ for this image [here](docker pull dockercloud/hello-world).
+29. Run the `dockercloud/hello-world` image without any arguments or flags.
 
     The container continues to run and never exits. If you look at the _Dockerfile_, you can see that 
     `php-fpm` and `nginx` are running within the container. Since `nginx` is run with `-g "daemon off;"
     `, the process never exits and neither does the container!
 
-- Rerun `docker images` and paste the output into _docker-module.txt_.
-- Commit your changes and push up.
+30. Rerun `docker images` and paste the output into _docker-module.txt_.
+31. Commit your changes and push up.
 
 ---
 
