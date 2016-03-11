@@ -20,3 +20,4 @@ This branch of the training modules repository is specific to PHP web developmen
 8. [Laravel PHP Framework](https://github.com/RealpageLouisville/training-web-modules/blob/master/Module-08.md)
 9. [REST](https://github.com/RealpageLouisville/training-web-modules/blob/master/Module-09.md)
 10. [Reusable Code in Packages](https://github.com/RealpageLouisville/training-web-modules/blob/master/Module-10.md)
+11. [Docker](https://github.com/RealpageLouisville/training-web-modules/blob/master/Module-11.md)
