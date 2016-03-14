@@ -21,3 +21,4 @@ This branch of the training modules repository is specific to PHP web developmen
 9. [REST](https://github.com/RealpageLouisville/training-web-modules/blob/master/Module-09.md)
 10. [Reusable Code in Packages](https://github.com/RealpageLouisville/training-web-modules/blob/master/Module-10.md)
 11. [Docker](https://github.com/RealpageLouisville/training-web-modules/blob/master/Module-11.md)
+12. [Docker Compose](https://github.com/RealpageLouisville/training-web-modules/blob/master/Module-12.md)
