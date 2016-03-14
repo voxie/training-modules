@@ -48,7 +48,7 @@ Resources and articles:
 #!/bin/bash
 echo 'Hello, World!'
 ```
-20. Update the _Dockerfile_ to that _welcome.sh_ is added to `/home/welcome.sh` when the container is built.
+20. Update the _Dockerfile_ so that _welcome.sh_ is added to `/home/welcome.sh` when the container is built.
 21. Rebuild the container following the the changes.
 22. Run the _welcome.sh_ script within the container using `docker run`, and paste the output into _docker-module.txt_.
 23. Commit your changes and push up.
