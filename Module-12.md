@@ -22,7 +22,7 @@ Resources and articles:
 2. In your _docker-compose.yml_ file, add a new service called `hello-container` with the image `hello-world`
 3. Create a new file called _docker-compose-module.txt_, and paste the output of `docker-compose up`.
 
-    If you look from the top of the output, you should be able to see the
+    > If you look from the top of the output, you should be able to see the
     process that docker-compose goes through to start the `hello-container` service.
     A new image is pulled, started, and exits, just like you would do by hand
     to start and stop a container.
