@@ -10,7 +10,7 @@ For this module, **create a new Git branch for your Laravel application from Mod
 
 The link below may provide some valuable insight.
 
-- [Designing a Secure REST (Web) API without OAuth](http://www.thebuzzmedia.com/designing-a-secure-rest-api-without-oauth-authentication/)
+- [Designing a Secure REST (Web) API without OAuth](http://web.archive.org/web/20150908221444/http://www.thebuzzmedia.com/designing-a-secure-rest-api-without-oauth-authentication)
 
 ***
 
