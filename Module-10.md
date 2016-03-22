@@ -38,17 +38,8 @@ _Now would be a good time to review the difference between `{{` and `{!!` in Bla
 
 ### Other Items
 
-1. **Assets**: Your package should contain at least one (1) CSS stylesheet and one (1) Javascript file. The implementation of the Javascript and CSS is up to you.
-2. **Asset Methods**: Your package should include at least two (2) static methods that output the necessary stylesheets and Javascript for inclusion in view or layout files. For example you may have code like:
-  ````
-  <html>
-    <head>
-      <title>Test</title>
-      {!! \RealpageLouisville\GuiLibrary\Asset::container('mypackage')->styles(); !!}
-      {!! \RealpageLouisville\GuiLibrary\Asset::container('mypackage')->scripts(); !!}
-    </head>
-  ````
-3. **README**: Your package must include a `README.md` file written in Markdown syntax that includes documentation on how to install your package as well as code usage examples.
+1. **Assets**: Your package should contain at least one (1) CSS stylesheet and one (1) Javascript file. The implementation of the Javascript and CSS is up to you. These assets should be available to the rest of your application. See [this reference](https://laravel.com/docs/5.1/packages#public-assets).
+2. **README**: Your package must include a `README.md` file written in Markdown syntax that includes documentation on how to install your package as well as code usage examples.
 
 ### Displaying Your Work
 
