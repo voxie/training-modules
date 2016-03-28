@@ -58,6 +58,7 @@ When building your application and meeting a specific criteria below, you should
 15. Use pagination at least once.
 16. Use 2+ Queues: one for sending email (in #5); and one custom queue.
 17. Use at least one query scope in your application.
+18. Implement at least one (1) model policy
 
 ***
 
