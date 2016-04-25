@@ -17,7 +17,11 @@ This branch of the training modules repository is specific to PHP web developmen
 5. [PHP Documentation Standards](https://github.com/RealpageLouisville/training-web-modules/blob/master/Module-05.md)
 6. [Advanced TDD](https://github.com/RealpageLouisville/training-web-modules/blob/master/Module-06.md)
 7. [Architecture](https://github.com/RealpageLouisville/training-web-modules/blob/master/Module-07.md)
-8. [Laravel PHP Framework](https://github.com/RealpageLouisville/training-web-modules/blob/master/Module-08.md)
+
+Depending on the type of work you're doing, choose either the Laravel or Lumen module.
+
+8a. [Laravel PHP Framework](https://github.com/RealpageLouisville/training-web-modules/blob/master/Module-08a.md) - Full php framework, includes front-end asset handling (gulp, elixir, etc.)
+8b. [Lumen PHP Framework](https://github.com/RealpageLouisville/training-web-modules/blob/master/Module-08b.md) - Micro-framework by Laravel intended for microservices and APIs 
 9. [REST](https://github.com/RealpageLouisville/training-web-modules/blob/master/Module-09.md)
 10. [Reusable Code in Packages](https://github.com/RealpageLouisville/training-web-modules/blob/master/Module-10.md)
 11. [Docker](https://github.com/RealpageLouisville/training-web-modules/blob/master/Module-11.md)
