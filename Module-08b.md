@@ -4,7 +4,7 @@
 
 ## Getting Started
 
-Prior to completing the module below it is highly recommended that you look at the following learning material:  **Even if you consider yourself a Laravel expert, there is material in the resources below that even seasoned users are not unaware of.**
+Prior to completing the module below it is highly recommended that you look at the following learning material:  **Even if you consider yourself a Lumen expert, there is material in the resources below that even seasoned users are not unaware of.**
 
 - [Introducing Lumen](https://laracasts.com/lessons/introducing-lumen)
 - [Laravel 5 fundamentals](https://laracasts.com/series/laravel-5-fundamentals) - Lumen is based on Laravel, so some Lumen components are covered in this Laravel series
