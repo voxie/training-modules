@@ -9,7 +9,7 @@ Prior to completing the module below it is highly recommended that you look at t
 - [Introducing Lumen](https://laracasts.com/lessons/introducing-lumen)
 - [Laravel 5 fundamentals](https://laracasts.com/series/laravel-5-fundamentals) - Lumen is based on Laravel, so some Lumen components are covered in this Laravel series
 
-_You're only building a sample application for the purpose of demonstrating knowledge of the various tools in Laravel. The application concept doesn't need to be something you'd want to show to the world._
+_You're only building a sample application for the purpose of demonstrating knowledge of the various tools in Lumen. The application concept doesn't need to be something you'd want to show to the world._
 
 ***
 
