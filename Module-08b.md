@@ -56,6 +56,7 @@ When building your application and meeting a specific criteria below, you should
 15. Use 2+ Queues: one for sending email (in #5); and one custom queue.
 16. Use at least one query scope in your application.
 17. Implement at least one (1) model policy
+18. Use at least one model factory for seeded data
 
 ***
 
