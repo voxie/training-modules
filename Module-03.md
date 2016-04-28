@@ -4,9 +4,7 @@
 
 ## Getting Started
 
-Prior to completing the module below it is highly recommended that you look at the following learning material:
-
-- [PHP PSR-2 Standard](http://www.php-fig.org/psr/psr-2/)
+Prior to completing the module below you'll need to review the [Realpage Development Standards](https://github.com/realpage/development-standards).
 
 ***
 
