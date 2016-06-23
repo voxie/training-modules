@@ -4,7 +4,7 @@
 
 ## Getting Started
 
-Prior to completing the module below you'll need to review the [Generation Tux Development Standards](https://github.com/generationtux/training-modules/blob/master/development-standards.md).
+Prior to completing the module below you'll need to review the [Generation Tux Development Standards](development-standards.md).
 
 ***
 
