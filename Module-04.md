@@ -9,6 +9,7 @@ Prior to completing the module below it is highly recommended that you look at t
 - [Test-Driven PHP](http://net.tutsplus.com/sessions/test-driven-php/)
 - [How to Write Testable and Maintainable Code in PHP](http://net.tutsplus.com/tutorials/php/how-to-write-testable-and-maintainable-code-in-php/)
 - [Laracasts: Testing Jargon](https://laracasts.com/series/testing-jargon)
+- [Laracasts: Testing Laravel](https://laracasts.com/series/phpunit-testing-in-laravel)
 - [Easier Testing With Mockery](https://tutsplus.com/tutorial/easier-testing-with-mockery/)
 
 ***

@@ -4,7 +4,7 @@
 
 ## Getting Started
 
-Prior to completing the module below you'll need to review the [Realpage Development Standards](https://github.com/realpage/development-standards).
+Prior to completing the module below you'll need to review the [Generation Tux Development Standards](development-standards.md).
 
 ***
 
