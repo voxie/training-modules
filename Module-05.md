@@ -6,7 +6,7 @@
 
 Prior to completing the module below it is highly recommended that you look at the following learning material:
 
-**Note:** PHPDocumentor2's 2.0 release documentation standard is the standard that new PHP development will conform to at RealPage.
+**Note:** PHPDocumentor2's 2.0 release documentation standard is the standard that new PHP development will conform to at Generation Tux.
 
 - [PHPDoc Documentation Standards](https://github.com/phpDocumentor/phpDocumentor2/blob/v2.0.0/docs/PSR.md)
 
