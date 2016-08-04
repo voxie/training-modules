@@ -47,8 +47,8 @@ Prior to completing the module below it is highly recommended that you look at t
 1. Create a new file called `functions.php`.
 2. Create four (4) math functions: `add`, `subtract`, `multiply` and `divide` two (2) given parameters.
 3. Use all of the functions and print out the result, showing how you would pass arguments to the functions by value and by reference.
-4. Create a function which takes two (2) comparison parameters and a third boolean parameter defaulting to false, which tells the function whether or not to compare the data type as well. Have the function print out a string that tells if the parameters are equal or not, and if they are equal in datatype if the third parameter was true.
-5. Use the `comparison` function and pass in the following parameters:
+4. Create a function called `compare` which takes two (2) comparison parameters and a third boolean parameter defaulting to false, which tells the function whether or not to compare the data type as well. Have the function print out a string that tells if the parameters are equal or not, and if they are equal in datatype if the third parameter was true.
+5. Use the `compare` function and pass in the following parameters:
     - `4, "4"`  
     - `5, "5", true`  
     - `4, 4.0`  
