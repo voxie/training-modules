@@ -52,7 +52,7 @@ Prior to completing the module below it is highly recommended that you look at t
     - `4, "4"`  
     - `5, "5", true`  
     - `4, 4.0`  
-    - `5. 5.0, true`  
+    - `5, 5.0, true`  
 
 ### Classes
 
