@@ -12,7 +12,8 @@ In order to complete this module you will need to understand the following:
 
 1. Create a vpc with 65,536 available private ip addresses
 
-2. Create a public subnet called - public-subnet-1 with 4,096 available ip addresses
+2. Create a public subnet called - public-subnet-1 with 4,096 available ip addresses. Ensure that the subnet assigns a public
+domain by default.
 
 3. Create a private subnet called - private-subnet-1 that can connect to the internet but cannot receive connections from the internet
 
