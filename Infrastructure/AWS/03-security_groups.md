@@ -9,4 +9,4 @@ aws before you begin the test.
 The Test:
 
 1. Launch an ec2 instance that allows all inbound traffic from port 80, but only
-allows ssh access from a machine that is physically located at the warehouse.
+allows ssh access from a machine that is on a specific network.
