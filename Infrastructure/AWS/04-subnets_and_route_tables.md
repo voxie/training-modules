@@ -1,5 +1,6 @@
 In order to complete this module you will need to understand the following:
 
+* [EC2](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/Instances.html)
 * [What is an amazon vpc?](http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_Introduction.html)
 * [VPC IP Addressing](http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/vpc-ip-addressing.html)
 * [CIDR Notation](https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing)
