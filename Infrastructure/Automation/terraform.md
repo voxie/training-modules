@@ -12,6 +12,7 @@ about terraform through their docs.
 section of these training modules using terraform.
 
 Including:
+
     * VPC
     * A public subnet
     * A private subnet with access outbound access to the internet
