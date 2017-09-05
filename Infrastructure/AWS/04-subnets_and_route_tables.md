@@ -34,7 +34,7 @@ represents the 'most significant bits'? Which one represents the 'least
 significant'?
 
 * How would you represent all ip addresses in the  range from 10.0.32.0 - 
-10.0.48.255 in CIDR notation?
+10.0.47.255 in CIDR notation?
 
 * Using CIDR notation how would you specify a route for all ip addresses?
 
