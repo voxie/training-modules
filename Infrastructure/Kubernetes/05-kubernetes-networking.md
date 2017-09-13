@@ -13,12 +13,6 @@ If you have a service named 'example-svc' in the default namespace, what will be
 
 What command should I run to get the ip address of the hello-minikube pod running on the minikube cluster?
 
-    ```
-    kubectl get pods -l run=hello-minikube -o yaml | grep podIP
-    ```
-
-
 Fill in the blank:
 
 All containers within a ____________ can communicate on localhost.
-
