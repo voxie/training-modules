@@ -12,9 +12,9 @@ about terraform through their docs.
 
 Including:
 
-    * VPC
-    * A public subnet
-    * A private subnet with access outbound access to the internet
-    * Route tables
-    * Autoscaling group
-    * Elastic Load Balancers
+  * VPC
+  * A public subnet
+  * A private subnet with access outbound access to the internet
+  * Route tables
+  * Autoscaling group
+  * Elastic Load Balancers
