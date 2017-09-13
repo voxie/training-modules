@@ -11,7 +11,7 @@ What are the 4 types of services in kubernetes?
 
 If you have a service named 'example-svc' in the default namespace, what will be its fully qualified domain name be within the cluster?
 
-What command should I run to get the ip address of the hello-minikube pod running on the minikube cluster?
+What commands can I run to get the ip address of the hello-minikube pod running on the minikube cluster?
 
 Fill in the blank:
 

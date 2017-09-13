@@ -1,7 +1,7 @@
 # Intoduction
 
 [Kubernetes Nodes](https://kubernetes.io/docs/concepts/architecture/nodes/)
-[Master Node Communication](https://kubernetes.io/docs/concepts/architecture/master-node-communicatio/)
+[Master Node Communication](https://kubernetes.io/docs/concepts/architecture/master-node-communication/)
 
 ## The Test
 
