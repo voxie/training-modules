@@ -7,7 +7,7 @@
 
 1. Add a entry in your local host file for (hello-minikube.com) pointed at the 
     mini-kube ip address
-1. Create an ingress yml file that forwards all traffic to hello-minikube.com to the 
+1. Create an ingress yml file that forwards all traffic from hello-minikube.com to the 
     hello-minikube service you created in module 01-getting-started
 1. Go to hello-minikube.com in your browser and confirm that it loads something like:
 
