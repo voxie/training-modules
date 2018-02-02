@@ -6,7 +6,7 @@
 
 Prior to completing the module below it is highly recommended that you look at the following learning material. Even if you consider yourself a Git expert, there is material in the resources below that even seasoned users are unaware of.
 
-Login creds for the following tutorials can be found [here](https://gitlab.com/realpage-louisville/welcome-center). Email your team lead or department head if you have any questions.
+If you need access, ask another team member with GitHub admin rights to add you to the GenerationTux organization.
 
 Official Documentation
 
