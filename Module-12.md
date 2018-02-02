@@ -1,18 +1,18 @@
 # Module 12: Docker Compose
 
 ## Introduction
-Docker Compse allows us to easily run multiple containers alongside each other, and best mirror our production environments. It aims to simplify this process by using a `docker-compose.yml` file to define the services. After this module, you should be comfortable with most tasks required to interact and manage a local container environment.
+Docker Compse allows us to easily run multiple containers alongside each other, and well mirror our production environments. It aims to simplify this process by using a `docker-compose.yml` file to define the services. After this module, you should be comfortable with most tasks required to interact and manage a local container environment.
 
 For this module, *create a new Git repo* for your Docker Compose work in Module 12.
 
 If you haven't already, it is recommended that you read through each of the official documentation resources listed below and follow some of the links within each resource to help clarify specific tools and their purposes.
 
 Resources and articles:
+
 - [What is Docker?](https://www.docker.com/what-docker)
 - [Official docker-compose.yml Reference](https://docs.docker.com/compose/compose-file/)
 - [Official Docker Engine Docs](https://docs.docker.com/engine/understanding-docker/)
 - [Official Docker Compose Docs](https://docs.docker.com/compose/overview/) - [(common use cases)](https://docs.docker.com/compose/overview/#common-use-cases)
-- [Docker Self Paced Training](http://training.docker.com/self-paced-training/)
 
 ---
 
@@ -34,11 +34,11 @@ Resources and articles:
 #!/bin/bash
 echo 'Hello, Docker Compose!'
 ```
-7. Update the `hello-world` service in your _docker-compose.yml_ file to use the `realpage/alpine-bash:3.3` from module 11.
+7. Update the `hello-world` service in your _docker-compose.yml_ file to use the `gentux/alpine-bash:latest` image from module 11.
 8. In the _docker-compose.yml_ file, mount the new `./scripts` directory as the `/home/scripts` directory within the `hello-container` service.
 9. Update the `hello-container` service to run the _welcome-docker.sh_ file and paste the output of `docker-compose up`.
 10. Commit your changes and push up.
-11. Create a new service called `data-container` that uses the `alpine:3.3` image, mounts the same volumes as the `hello-container` service, and runs `/bin/ash`.
+11. Create a new service called `data-container` that uses the `alpine:latest` image, mounts the same volumes as the `hello-container` service, and runs `/bin/ash`.
 12. Update the `hello-container` service to mount the volumes from the `data-container` service and paste the output of `docker-compose up`.
 13. Commit your changes and push up.
 

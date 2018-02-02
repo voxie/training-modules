@@ -8,26 +8,27 @@ For this module, *create a new Git repo* for your Docker work in Module 11.
 It is recommended that you read through each of the official documentation resources listed below and follow some of the links within each resource to help clarify specific tools and their purposes.
 
 Resources and articles:
+
 - [What is Docker?](https://www.docker.com/what-docker)
 - [Laravel Development with Docker](https://kyleferg.com/laravel-development-with-docker/)
 - [Official Dockerfile Reference](https://docs.docker.com/engine/reference/builder/)
 - [Official Docker Engine Docs](https://docs.docker.com/engine/understanding-docker/)
 - [Official Docker Compose Docs](https://docs.docker.com/compose/overview/)
 - [Official Docker Hub Docs](https://docs.docker.com/docker-hub/overview/)
-- [Alpine Linux package management](http://wiki.alpinelinux.org/wiki/Alpine_Linux_package_management/)
-- [Docker Self Paced Training](http://training.docker.com/self-paced-training/)
+- [Alpine Linux package management](https://wiki.alpinelinux.org/wiki/Alpine_Linux_package_management)
 
 ---
 
 ## The Test
 
-1. Install [Docker Toolbox](https://www.docker.com/products/docker-toolbox/) on your local machine. Don't forget to run `/usr/local/bin/docker-machine env default` and `eval $(/usr/local/bin/docker-machine env default)` use the default environment.
+1. Install [Docker Community Edition for Mac](https://store.docker.com/editions/community/docker-ce-desktop-mac)
+on your local machine.
 2. Create a [Docker Hub](https://hub.docker.com/) account.
 3. Login to your Docker Hub account using `docker login` in your terminal window.
-4. Pull down the `alpine:3.3` image from Docker Hub.
+4. Pull down the `alpine:latest` image from Docker Hub.
 5. Create a new file called _docker-module.txt_, and paste the output of `docker images` into the file.
 6. Commit your changes and push up.
-7. Run `sh` interactively inside of the `alpine:3.3` container using `docker run`. You should see a prompt showing `/ #`.
+7. Run `sh` interactively inside of the `alpine:latest` container using `docker run`. You should see a prompt showing `/ #`.
 8. Using `apk` ([more info here](http://wiki.alpinelinux.org/wiki/Alpine_Linux_package_management)), install bash while inside of the container. You'll need add bash using the `--no-cache` flag.
 9. Start a bash prompt inside of the container, and paste the current prompt into _docker-module.txt_.
 10. Exit the container.
@@ -39,9 +40,9 @@ Resources and articles:
     machines handle state.
 
 13. Commit your changes and push up.
-14. Create a new _Dockerfile_ that extends the `alpine:3.3` and installs `bash`.
-15. Build a new image with the tag `realpage/alpine-bash:3.3` using your new _Dockerfile_.
-16. Attempt to run bash inside of the new `realpage/alpine-bash:3.3` container, and paste the output into _docker-module.txt_.
+14. Create a new _Dockerfile_ that extends the `alpine:latest` and installs `bash`.
+15. Build a new image with the tag `gentux/alpine-bash:latest` using your new _Dockerfile_.
+16. Attempt to run bash inside of the new `gentux/alpine-bash:latest` container, and paste the output into _docker-module.txt_.
 17. Exit the container.
 18. Commit your changes and push up.
 19. Create a new executable file called _welcome.sh_ containing the following:
@@ -53,17 +54,15 @@ echo 'Hello, World!'
 21. Rebuild the container following the the changes.
 22. Run the _welcome.sh_ script within the container using `docker run`, and paste the output into _docker-module.txt_.
 23. Commit your changes and push up.
-24. Update the _Dockerfile_ so that it outputs "Hello, World!" when only running `docker run realpage/alpine-bash:3.3`.
-25. Rebuild the container and run it via `docker run realpage/alpine-bash:3.3`.
+24. Update the _Dockerfile_ so that it outputs "Hello, World!" when only running `docker run gentux/alpine-bash:latest`.
+25. Rebuild the container and run it via `docker run gentux/alpine-bash:latest`.
 26. Paste the output into _docker-module.txt_.
 27. Commit your changes and push up.
-28. Pull down the `dockercloud/hello-world` image. You can see the _Dockerfile_ for this image [here](docker pull dockercloud/hello-world).
+28. Pull down the `dockercloud/hello-world` image. You can see the _Dockerfile_ for this image [here](https://hub.docker.com/r/dockercloud/hello-world/~/dockerfile).
 29. Run the `dockercloud/hello-world` image without any arguments or flags.
 
     > The container continues to run and never exits. If you look at the _Dockerfile_, you can see that
-    `php-fpm` and `nginx` are running within the container. Since `nginx` is run with `-g "daemon off;"
-    `, the process never exits and neither does the container!
-
+    `php-fpm` and `nginx` are running within the container. Since `nginx` is run with `-g "daemon off;"`, the process never exits and neither does the container!
 30. Rerun `docker images` and paste the output into _docker-module.txt_.
 31. Commit your changes and push up.
 
