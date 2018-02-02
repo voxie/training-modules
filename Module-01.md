@@ -6,7 +6,7 @@
 
 Prior to completing the module below it is highly recommended that you look at the following learning material. Even if you consider yourself a Git expert, there is material in the resources below that even seasoned users are unaware of.
 
-Ask another team member with GitHub admin rights to add you to the GenerationTux organization.
+If you need access, ask another team member with GitHub admin rights to add you to the GenerationTux organization.
 
 Official Documentation
 
