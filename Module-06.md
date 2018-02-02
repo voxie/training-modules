@@ -17,6 +17,7 @@ _Before you can run Codeception on your Mac, you'll need to add a `date.timezone
 ## The Test
 
 Create a new branch in your 'php-final' Git repo called `codeception` and commit all the work from this module there. Be sure to write any code to conform to the PSR-2 standard.
+
 1. Install Codeception using Composer
 2. Using Codeception and your basic MVC application create at least 1 of each of the following tests:
     - Unit Test
