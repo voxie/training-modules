@@ -1,15 +1,14 @@
 
-[Ingress On Minikube](https://medium.com/@Oskarr3/setting-up-ingress-on-minikube-6ae825e98f82)
-
-[Ingress](https://kubernetes.io/docs/concepts/services-networking/ingress/)
+- [Ingress On Minikube](https://medium.com/@Oskarr3/setting-up-ingress-on-minikube-6ae825e98f82)
+- [Ingress](https://kubernetes.io/docs/concepts/services-networking/ingress/)
 
 # The Test
 
-1. Add a entry in your local host file for (hello-minikube.com) pointed at the 
-    mini-kube ip address
-1. Create an ingress yml file that forwards all traffic from hello-minikube.com to the 
-    hello-minikube service you created in module 01-getting-started
-1. Go to hello-minikube.com in your browser and confirm that it loads something like:
+1. Add a entry in your local host file for (hello-minikube.local) pointed at the 
+    minikube ip address.
+1. Create an `ingress.yml` file that forwards all traffic from hello-minikube.local to the 
+    hello-minikube service you created in module 1.
+1. Go to hello-minikube.local in your browser and confirm that it loads something like:
 
     ```bash
         CLIENT VALUES:
@@ -18,7 +17,7 @@
         real path=/
         query=nil
         request_version=1.1
-        request_uri=http://hello-minikube.com:8080/
+        request_uri=http://hello-minikube.local:8080/
 
         SERVER VALUES:
         server_version=nginx: 1.10.0 - lua: 10001
@@ -34,7 +33,7 @@
         upgrade-insecure-requests=1
         user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36
         x-forwarded-for=192.168.99.1
-        x-forwarded-host=hello-minikube.com
+        x-forwarded-host=hello-minikube.local
         x-forwarded-port=80
         x-forwarded-proto=http
         x-original-uri=/
