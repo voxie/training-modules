@@ -6,15 +6,13 @@
 
 Prior to completing the module below it is highly recommended that you look at the following learning material:
 
-- [Test-Driven PHP](http://net.tutsplus.com/sessions/test-driven-php/)
 - [How to Write Testable and Maintainable Code in PHP](http://net.tutsplus.com/tutorials/php/how-to-write-testable-and-maintainable-code-in-php/)
 - [Laracasts: Testing Jargon](https://laracasts.com/series/testing-jargon)
 - [Laracasts: Testing Laravel](https://laracasts.com/series/phpunit-testing-in-laravel)
-- [Easier Testing With Mockery](https://tutsplus.com/tutorial/easier-testing-with-mockery/)
 
 ***
 
-## The Test
+## Completing the module
 
 1. Create a new branch in your `php-final` Git repo called `TDD` and commit all the work from this module there.
 2. Be sure to write your code to conform to the (**PSR-2**)[http://www.php-fig.org/psr/psr-2/] spec.
@@ -43,4 +41,4 @@ Prior to completing the module below it is highly recommended that you look at t
 
 When you are done, push your code to GitHub. Please create a tag called `v1.4` with a message of `"ready for review"`. Be sure your tags are pushed to the remote repository and are visible in GitHub.
 
-Create an issue titled **Review Module 4 - Testing Driven Development** and `@mention` your mentor and team leader.
+Create an issue titled **Review Module 4 - Testing Driven Development** and assign it to [**@generationtux-helmsmen**](https://github.com/generationtux-helmsmen).
