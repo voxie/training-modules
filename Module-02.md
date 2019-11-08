@@ -4,7 +4,7 @@
 
 ## Getting Started
 
-Prior to completing the module below it is highly recommended that you look at the following learning material. Note that, as of the time this document has last been updated, we currently use PHP 7.2 be default for our PHP services. If you're familiar with Docker, you can verify the current default version at [generationtux/dockerfiles](https://github.com/generationtux/dockerfiles).
+Prior to completing the module below it is highly recommended that you look at the following learning material.
 
 - [PHP The Right Way](http://phptherightway.com)
 
