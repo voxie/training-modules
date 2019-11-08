@@ -1,4 +1,4 @@
-# Module 2: Programming Basics with PHP
+# Module 4: Programming Basics with PHP
 
 ***
 
@@ -89,7 +89,7 @@ Create a new branch in your PHP Git repository called `advanced` and push your c
 2. Create a simple PHP application **that does not use an existing framework or 3rd party libraries** and has the characteristics listed below.
 3. Note that this exercise should be kept as simple as possible. **Do not develop beyond the feature requirements below.**
 
-> Before you begin building this web application, take a minute to setup [Laravel Homestead](http://laravel.com/docs/master/homestead) if you haven't already.
+> Before you begin building this web application, copy over the final _docker-compose.yaml_ file you created as part of Module 3.
 
 #### Feature Requirements
 
@@ -111,4 +111,4 @@ Create a new branch in your PHP Git repository called `advanced` and push your c
 
 When you are finished, push your code to GitHub. You should have two repos, `PHP` and `php-final` in your personal GitHub namespace. Create a tag called `v1.2` with a message of `"ready for review"`. Be sure your tags are pushed to the remote repository and are visible in GitHub.
 
-Create an issue titled **Review Module 2 - Programming Basics with PHP** and assign it to [**@generationtux-helmsmen**](https://github.com/generationtux-helmsmen).
+Create an issue titled **Review Module 4 - Programming Basics with PHP** and assign it to [**@generationtux-helmsmen**](https://github.com/generationtux-helmsmen).

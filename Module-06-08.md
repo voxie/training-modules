@@ -1,4 +1,4 @@
-# Module 6: Advanced TDD: Codeception
+# Module 8: Advanced TDD: Codeception
 
 ***
 
@@ -29,4 +29,4 @@ Create a new branch in your 'php-final' Git repo called `codeception` and commit
 
 When you are done, push your code to GitHub. Please create a tag called `v1.6` with a message of `"ready for review"`.  Be sure your tags are pushed to the remote repository and are visible in GitHub.
 
-Create an issue titled **Review Module 6 - Advanced TDD: Codeception** and assign it to [**@generationtux-helmsmen**](https://github.com/generationtux-helmsmen).
+Create an issue titled **Review Module 8 - Advanced TDD: Codeception** and assign it to [**@generationtux-helmsmen**](https://github.com/generationtux-helmsmen).

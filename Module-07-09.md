@@ -1,4 +1,4 @@
-# Module 7: Architecture
+# Module 9: Architecture
 
 ***
 
@@ -49,4 +49,4 @@ Prior to completing the module below it is highly recommended that you familiari
 
 When you are done, push your code to GitHub. Please create a tag called `v1.7` with a message of `"ready for review"`.  Be sure your tags are pushed to the remote repository and are visible in GitHub.
 
-Create an issue titled **Review Module 7 - Architecture** and assign it to [**@generationtux-helmsmen**](https://github.com/generationtux-helmsmen).
+Create an issue titled **Review Module 9 - Architecture** and assign it to [**@generationtux-helmsmen**](https://github.com/generationtux-helmsmen).

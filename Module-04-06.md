@@ -1,4 +1,4 @@
-# Module 4: Test Driven Development (TDD)
+# Module 6: Test Driven Development (TDD)
 
 ***
 
@@ -41,4 +41,4 @@ Prior to completing the module below it is highly recommended that you look at t
 
 When you are done, push your code to GitHub. Please create a tag called `v1.4` with a message of `"ready for review"`. Be sure your tags are pushed to the remote repository and are visible in GitHub.
 
-Create an issue titled **Review Module 4 - Testing Driven Development** and assign it to [**@generationtux-helmsmen**](https://github.com/generationtux-helmsmen).
+Create an issue titled **Review Module 6 - Testing Driven Development** and assign it to [**@generationtux-helmsmen**](https://github.com/generationtux-helmsmen).

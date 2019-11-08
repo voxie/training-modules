@@ -1,4 +1,4 @@
-# Module 10: Reusable Code in Packages
+# Module 12: Reusable Code in Packages
 
 ***
 
@@ -51,4 +51,4 @@ _Now would be a good time to review the difference between `{{` and `{!!` in Bla
 
 When you are done, push your code to GitHub. Please create a tag called `v2.0` with a message of `"ready for review"`. Be sure your tags are pushed to the remote repository and are visible in GitHub.
 
-Create an issue titled **Review Module 10 - Reusable Code in Packages** and assign it to [**@generationtux-helmsmen**](https://github.com/generationtux-helmsmen).
+Create an issue titled **Review Module 12 - Reusable Code in Packages** and assign it to [**@generationtux-helmsmen**](https://github.com/generationtux-helmsmen).

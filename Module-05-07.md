@@ -1,4 +1,4 @@
-# Module 5: PHP Documentation Standards
+# Module 7: PHP Documentation Standards
 
 ***
 
@@ -24,4 +24,4 @@ Add documentation to your code that conforms to the documentation spec above.
 
 When you are done, push your code to GitHub. Please create a tag called `v1.5` with a message of `"ready for review"`. Be sure your tags are pushed to the remote repository and are visible in GitHub.
 
-Create an issue titled **Review Module 5 - PHP Documentation Standards** and assign it to [**@generationtux-helmsmen**](https://github.com/generationtux-helmsmen).
+Create an issue titled **Review Module 7 - PHP Documentation Standards** and assign it to [**@generationtux-helmsmen**](https://github.com/generationtux-helmsmen).
