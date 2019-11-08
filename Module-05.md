@@ -12,7 +12,7 @@ Prior to completing the module below it is highly recommended that you look at t
 
 ***
 
-## Completing the module
+## Completing the Module
 
 Create a new branch in your `php-final` git repo called `documentation` and commit all the work from this module there. Again, be sure to write any code to **conform to the `PSR-2` standard**.
 

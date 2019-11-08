@@ -1,7 +1,7 @@
 # Module 11: Docker
 
 ## Introduction
-Docker containers are an integral part of the development and management of our DevOps workflow. After this module, you should be comfortable with most tasks required to interact and manage containers along with an understanding of their purpose and basic workings.
+Docker containers are an integral part of the development and management of our DevOps workflow. After this module, you should be comfortable with basic tasks required to interact and manage containers along with an understanding of their purpose and basic workings.
 
 For this module, *create a new Git repo* for your Docker work in Module 11.
 
@@ -19,7 +19,7 @@ Resources and articles:
 
 ---
 
-## The Test
+## Completing the Module
 
 1. Install [Docker Community Edition for Mac](https://store.docker.com/editions/community/docker-ce-desktop-mac)
 on your local machine.
@@ -72,4 +72,4 @@ echo 'Hello, World!'
 
 When you are done, verify you have pushed your changes to GitHub. Please create a tag called v1.0 with a message of "ready for review" in your docker repo. Be sure your tags are pushed to the remote repository and are visible in GitHub.
 
-Create an issue titled *Review Module 11 - Docker* and @mention your mentor and team leader.
+Create an issue titled *Review Module 11 - Docker* and assign it to [**@generationtux-helmsmen**](https://github.com/generationtux-helmsmen).

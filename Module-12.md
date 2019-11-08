@@ -1,7 +1,7 @@
 # Module 12: Docker Compose
 
 ## Introduction
-Docker Compse allows us to easily run multiple containers alongside each other, and well mirror our production environments. It aims to simplify this process by using a `docker-compose.yml` file to define the services. After this module, you should be comfortable with most tasks required to interact and manage a local container environment.
+Docker Compse allows us to easily run multiple containers alongside each other, and well mirror our production environments. It aims to simplify this process by using a `docker-compose.yml` file to define the services. After this module, you should be comfortable with basic tasks required to interact and manage a local container environment.
 
 For this module, *create a new Git repo* for your Docker Compose work in Module 12.
 
@@ -16,7 +16,7 @@ Resources and articles:
 
 ---
 
-## The Test
+## Completing the Module
 
 1. Create a file called _docker-compose.yml_
 2. In your _docker-compose.yml_ file, add a new service called `hello-container` with the image `hello-world`
@@ -48,4 +48,4 @@ echo 'Hello, Docker Compose!'
 
 When you are done, verify you have pushed your changes to GitHub. Please create a tag called v1.0 with a message of "ready for review" in your docker compose repo. Be sure your tags are pushed to the remote repository and are visible in GitHub.
 
-Create an issue titled *Review Module 12 - Docker Compose* and @mention your mentor and team leader.
+Create an issue titled *Review Module 12 - Docker Compose* and assign it to [**@generationtux-helmsmen**](https://github.com/generationtux-helmsmen).

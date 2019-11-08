@@ -14,7 +14,7 @@ Official Documentation
 
 ***
 
-## Completing the module
+## Completing the Module
 
 Note: This module primarily assumes you are using Terminal, and may not cover necessary or extra steps you might need to take when using Git client (such as SourceTree or Tower).
 

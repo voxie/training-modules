@@ -15,7 +15,7 @@ Prior to completing the module below it is highly recommended that you familiari
 
 ***
 
-## Completing the module
+## Completing the Module
 
 1. Create a new branch in your 'php-final' git repo called `architecture` and commit all the work from this module there.
 2. Following the Laravel conventions and patterns for database architectures, create an Entity Relationship Diagram (ERD) using Crow's Foot Notation to diagram the Entities and Relationships below.

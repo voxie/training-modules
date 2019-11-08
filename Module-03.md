@@ -8,7 +8,7 @@ Prior to completing the module below you'll need to review the [Generation Tux D
 
 ***
 
-## Completing the module
+## Completing the Module
 
 Create a new branch in your `php-final` git repo called `psr-2` and refactor your PHP code to conform to the PSR-2 standard. Be sure to write all your future PHP code to conform to PSR-2.
 

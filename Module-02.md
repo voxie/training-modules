@@ -10,7 +10,7 @@ Prior to completing the module below it is highly recommended that you look at t
 
 ***
 
-## Completing the module
+## Completing the Module
 
 **Note:** You will stage, commit (with valid message) and push your changes **after each update**.
 

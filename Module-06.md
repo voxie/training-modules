@@ -12,7 +12,7 @@ _If you have trouble running Codeception on your Mac, note that you'll need to a
 
 ***
 
-## Completing the module
+## Completing the Module
 
 Create a new branch in your 'php-final' Git repo called `codeception` and commit all the work from this module there. Be sure to write any code to conform to the PSR-2 standard.
 

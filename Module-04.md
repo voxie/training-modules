@@ -12,7 +12,7 @@ Prior to completing the module below it is highly recommended that you look at t
 
 ***
 
-## Completing the module
+## Completing the Module
 
 1. Create a new branch in your `php-final` Git repo called `TDD` and commit all the work from this module there.
 2. Be sure to write your code to conform to the (**PSR-2**)[http://www.php-fig.org/psr/psr-2/] spec.
