@@ -13,7 +13,7 @@ _You're only building a sample application for the purpose of demonstrating know
 
 ***
 
-## The Test
+## Completing the Module
 
 1. Create a new repository in your GitHub namespace called `Lumen-Test`, and commit all the work from this module there.
 2. Build a Lumen application with the features, functions, entities etc of your choosing as long as the application meets the criteria below. Be creative and resourceful but at the same time don't take 10 years to build your app.  This isn't an application you'll ship, focus on fulfilling the criteria to demonstrate your understanding of the framework components.
@@ -39,7 +39,7 @@ When building your application and meeting a specific criteria below, you should
     - SQL-Injection
     - CSRF
 	- Session-Fixation
-7. Include a minimum of four (4) different Entities (excluding lookups).
+7. Include a minimum of four different Entities (excluding lookups).
 8. Include the following relationships:
     - At least 1 relationship for each model
     - 1+ belongs to relationship
@@ -49,13 +49,13 @@ When building your application and meeting a specific criteria below, you should
     - 1+ polymorphic relationship
 9. CRUD interface for at least 1 model.
 10. Handle uploading an image that is a property of an entity. (Something like `$user->avatar`)
-11. Include at least one (1) 'resourceful' route and controller.
-12. Subscribe to at least one (1) event. This can be a built-in event or a custom event you fire.
-13. Create at least one (1) Facade.
+11. Include at least one 'resourceful' route and controller.
+12. Subscribe to at least one event. This can be a built-in event or a custom event you fire.
+13. Create at least one Facade.
 14. Use pagination at least once.
 15. Use 2+ Queues: one for sending email (in #5); and one custom queue.
 16. Use at least one query scope in your application.
-17. Implement at least one (1) model policy
+17. Implement at least one model policy
 18. Use at least one model factory for seeded data
 
 ***
@@ -64,4 +64,4 @@ When building your application and meeting a specific criteria below, you should
 
 When you are done, push your code to GitHub. Please create a tag called `v1.8b` with a message of `"ready for review"`.  Be sure your tags are pushed to the remote repository and are visible in GitHub.
 
-Create an issue titled **Review Module 8b - Lumen PHP Framework** and `@mention` your mentor and team leader.
+Create an issue titled **Review Module 8b - Lumen PHP Framework** and assign it to [**@generationtux-helmsmen**](https://github.com/generationtux-helmsmen).
