@@ -1,4 +1,4 @@
-# Module 6: Advanced TDD: Codeception
+# Module 6: Test Driven Development (TDD)
 
 ***
 
@@ -7,28 +7,38 @@
 Prior to completing the module below it is highly recommended that you look at the following learning material:
 
 - [How to Write Testable and Maintainable Code in PHP](http://net.tutsplus.com/tutorials/php/how-to-write-testable-and-maintainable-code-in-php/)
-- [Modern Testing In PHP With Codeception](https://tutsplus.com/course/modern-testing-in-php-with-codeception/)
-- [Codeception Documentation](http://codeception.com/docs/01-Introduction)
-
-_Before you can run Codeception on your Mac, you'll need to add a `date.timezone` configuration to your `/etc/php.ini.default` and rename it to `php.ini`._
+- [Laracasts: Testing Jargon](https://laracasts.com/series/testing-jargon)
+- [Laracasts: Testing Laravel](https://laracasts.com/series/phpunit-testing-in-laravel)
 
 ***
 
-## The Test
+## Completing the Module
 
-Create a new branch in your 'php-final' Git repo called `codeception` and commit all the work from this module there. Be sure to write any code to conform to the PSR-2 standard.
-
-1. Install Codeception using Composer
-2. Using Codeception and your basic MVC application create at least 1 of each of the following tests:
-    - Unit Test
-	  - Acceptance Test using the PhpBrowser back-end
-3. Stage, commit and push your code to GitHub.
-4. Refactor your acceptance test settings to use Codeception's WebDriver as the back-end.
+1. Create a new branch in your `php-final` Git repo called `TDD` and commit all the work from this module there.
+2. Be sure to write your code to conform to the (**PSR-2**)[http://www.php-fig.org/psr/psr-2/] spec.
+3. Use Composer to install Mockery, PHPUnit and fzaninotto/Faker. Your `composer.json` and `composer.lock` files should be part of this project.
+4. Add a folder called `tests` where all your test code will go.
+5. Add a test class for your previous model.
+6. Add a method to the test class to test model validation; use Faker to set properties:
+	- Create a new object and assert that validation initially fails.
+	- Assert that an error exists for each particular property where validation is failing.
+	- One by one, set each required property correctly and assert that the error does not exist.
+	- When all required properties are set, `assert` that validation passes.
+7. Add a method that tests that the model's `save()` and `destroy()` methods are inserting, updating and deleting in the database correctly:
+	- Assert that the model's database table is empty, or note the number of records.
+	- Create a new object, populate the properties with Faker and call `save()`; assert that the record was inserted into the database.
+	- Update the object and call `save()`; assert that the data in relevant table row has been updated correctly AND that no additional records were inserted.
+	- Call the `destroy()` method on the model and assert that the record has been removed from the database table.
+8. Refactor your model's code to use dependency injection and the Repository pattern:
+	- Following the Repository pattern, add a database access object, and define an interface that specifies the methods and properties required.
+	- Refactor your model to use dependency injection and the database access object.
+	- Add a mock database access object that uses Mockery and conforms to the database access interface to return mock data.
+9. Add a new test method to your test class that injects the mock database access object. Test the `create`, `find`, `update` and `delete` functionality of your model without actually hitting the database.
 
 ***
 
 ## Wrapping Up
 
-When you are done, push your code to GitHub. Please create a tag called `v1.6` with a message of `"ready for review"`.  Be sure your tags are pushed to the remote repository and are visible in GitHub.
+When you are done, push your code to GitHub. Please create a tag called `v1.4` with a message of `"ready for review"`. Be sure your tags are pushed to the remote repository and are visible in GitHub.
 
-Create an issue titled **Review Module 6 - Advanced TDD: Codeception** and `@mention` your mentor and team leader.
+Create an issue titled **Review Module 6 - Testing Driven Development** and assign it to [**@generationtux-helmsmen**](https://github.com/generationtux-helmsmen).

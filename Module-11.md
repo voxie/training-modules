@@ -1,75 +1,44 @@
-# Module 11: Docker
+# Module 11: REST
 
-## Introduction
-Docker containers are an integral part of the development and management of our DevOps workflow. After this module, you should be comfortable with most tasks required to interact and manage containers along with an understanding of their purpose and basic workings.
+***
 
-For this module, *create a new Git repo* for your Docker work in Module 11.
+## Getting Started
 
-It is recommended that you read through each of the official documentation resources listed below and follow some of the links within each resource to help clarify specific tools and their purposes.
+In completing this module you may use 3rd-party libraries to help you accomplish your goals if you wish to do so.
 
-Resources and articles:
+For this module, **create a new Git branch for your Laravel application from Module 10**, and call the branch `rest`.
 
-- [What is Docker?](https://www.docker.com/what-docker)
-- [Laravel Development with Docker](https://kyleferg.com/laravel-development-with-docker/)
-- [Official Dockerfile Reference](https://docs.docker.com/engine/reference/builder/)
-- [Official Docker Engine Docs](https://docs.docker.com/engine/understanding-docker/)
-- [Official Docker Compose Docs](https://docs.docker.com/compose/overview/)
-- [Official Docker Hub Docs](https://docs.docker.com/docker-hub/overview/)
-- [Alpine Linux package management](https://wiki.alpinelinux.org/wiki/Alpine_Linux_package_management)
+The link below may provide some valuable insight.
 
----
+- [Designing a Secure REST (Web) API without OAuth](http://web.archive.org/web/20150908221444/http://www.thebuzzmedia.com/designing-a-secure-rest-api-without-oauth-authentication)
 
-## The Test
+***
 
-1. Install [Docker Community Edition for Mac](https://store.docker.com/editions/community/docker-ce-desktop-mac)
-on your local machine.
-2. Create a [Docker Hub](https://hub.docker.com/) account.
-3. Login to your Docker Hub account using `docker login` in your terminal window.
-4. Pull down the `alpine:latest` image from Docker Hub.
-5. Create a new file called _docker-module.txt_, and paste the output of `docker images` into the file.
-6. Commit your changes and push up.
-7. Run `sh` interactively inside of the `alpine:latest` container using `docker run`. You should see a prompt showing `/ #`.
-8. Using `apk` ([more info here](http://wiki.alpinelinux.org/wiki/Alpine_Linux_package_management)), install bash while inside of the container. You'll need add bash using the `--no-cache` flag.
-9. Start a bash prompt inside of the container, and paste the current prompt into _docker-module.txt_.
-10. Exit the container.
-11. Commit your changes and push up.
-12. Attempt to run `bash` inside of the container, and paste the output into _docker-module.txt_.
+## Completing the Module
 
-    > Since containers are immutable, they start in their original state everytime. Since the original
-    state of the container doesn't have `bash` installed, running the container again restarts the container without bash. This is one of the differences between the way containers and virtual
-    machines handle state.
+### Part 1: Integrating a REST API
 
-13. Commit your changes and push up.
-14. Create a new _Dockerfile_ that extends the `alpine:latest` and installs `bash`.
-15. Build a new image with the tag `gentux/alpine-bash:latest` using your new _Dockerfile_.
-16. Attempt to run bash inside of the new `gentux/alpine-bash:latest` container, and paste the output into _docker-module.txt_.
-17. Exit the container.
-18. Commit your changes and push up.
-19. Create a new executable file called _welcome.sh_ containing the following:
-```
-#!/bin/bash
-echo 'Hello, World!'
-```
-20. Update the _Dockerfile_ so that _welcome.sh_ is added to `/home/welcome.sh` when the container is built.
-21. Rebuild the container following the the changes.
-22. Run the _welcome.sh_ script within the container using `docker run`, and paste the output into _docker-module.txt_.
-23. Commit your changes and push up.
-24. Update the _Dockerfile_ so that it outputs "Hello, World!" when only running `docker run gentux/alpine-bash:latest`.
-25. Rebuild the container and run it via `docker run gentux/alpine-bash:latest`.
-26. Paste the output into _docker-module.txt_.
-27. Commit your changes and push up.
-28. Pull down the `dockercloud/hello-world` image. You can see the _Dockerfile_ for this image [here](https://hub.docker.com/r/dockercloud/hello-world/~/dockerfile).
-29. Run the `dockercloud/hello-world` image without any arguments or flags.
+1. Create a new __resourceful__ controller that obeys proper REST conventions for managing CRUD operations for any model that you already have in your application.  Alternatively, if you'd like you can create a new model for this purpose. We'll refer to this controller as your "API controller".
+2. Your API controller should output JSON along with the proper HTTP status code for each request/response. Any responses should contain relevant data about the outcome or condition of the request that was made.
 
-    > The container continues to run and never exits. If you look at the _Dockerfile_, you can see that
-    `php-fpm` and `nginx` are running within the container. Since `nginx` is run with `-g "daemon off;"`, the process never exits and neither does the container!
-30. Rerun `docker images` and paste the output into _docker-module.txt_.
-31. Commit your changes and push up.
+### Part 2: API Authentication
 
----
+1. Create a new __resourceful__ controller, model and associated views for managing multiple api consumers. Each API consumer should at a minimum have attributes for api_key and shared_secret. You'll use these attributes later to authenticate the API client.
+
+> Most APIs require some sort of query authentication: a method of signing API requests with an API key and signature. The signature is usually generated using a shared secret. When you're consuming an API, there should be easy to follow steps to create signatures and authenticate your API requests. When you're writing your own API, you have to create both server-side signature validation and a client-side signature creation strategy.
+
+2. Modify the API controller you created in Part 1 to to handle server-side signature validation of the API request. You'll need to integrate the API consumer records with their key and shared secret attributes that you created in the step above.
+
+### Part 3: An API Client
+
+Create a new Git repo called `rest-client-ex`. In this repo you will create a collection of PHP code which will consume your API. Use your own judgement on how you'd like to setup this client application. You could make another Laravel app, or even plain PHP files. You be the judge.
+
+1. Create rest-client code that executes each REST endpoint of your API controller. In doing this, you'll need to handle the client-side (API/REST client) signature creation.
+
+***
 
 ## Wrapping Up
 
-When you are done, verify you have pushed your changes to GitHub. Please create a tag called v1.0 with a message of "ready for review" in your docker repo. Be sure your tags are pushed to the remote repository and are visible in GitHub.
+When you are done, push your code to GitHub. Please create a tag called `v2.0` with a message of `"ready for review"` in both your Laravel app repo and the new `rest-client-ex` repo. Be sure your tags are pushed to the remote repository and are visible in GitHub.
 
-Create an issue titled *Review Module 11 - Docker* and @mention your mentor and team leader.
+Create an issue titled **Review Module 11 - REST** and assign it to [**@generationtux-helmsmen**](https://github.com/generationtux-helmsmen).
