@@ -48,7 +48,7 @@ Update the _docker-compose.yaml_ file to fulfill the following requirements:
 1. A network defined as _modules_.
 1. An app service using the `gentux/php:lumen-5.6-ci` image, mounting the current directory to `/var/www`, and attached to the _modules_ network.
 2. A web service using the `gentux/nginx:fpm` image, exposing port 80 on port 80 locally, a [link](https://docs.docker.com/compose/compose-file/#links) to the app service with an alias of _fpm.local_, and attached to the _modules_ network.
-3. A mysql service using `mysql:5.6`, exposing port 3306 on port 3306 locally, attached to the _modules_ network, and using envinroment variables to set a root password of `secret`, a database name of `modules`, a user name of `modules`, and a user password of `secret`.
+3. A mysql service using `mysql:5.6`, exposing port 3306 on port 3306 locally, attached to the _modules_ network, and using environment variables to set a root password of `secret`, a database name of `modules`, a user name of `modules`, and a user password of `secret`.
 
 ---
 
