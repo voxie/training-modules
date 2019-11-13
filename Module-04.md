@@ -19,8 +19,8 @@ Prior to completing the module below it is highly recommended that you look at t
 1. Create a new Git repo in your GitHub account under your namespace called `PHP`. All the code for this module should be committed there.
 2. Create a file called `constants.php` and define 5 PHP constants there via the `define()` method. Assign some constants string values and some integer values. The integer values should be between one and five.
 3. Stage, commit and push your changes.
-4. Create a new file called `main.php`. In the `main.php` file bring in the constants.php file in a way that will make it required and that it will be brought in only one time.
-5. Now create an array variable called `array` and assign it an associative array, using key names that are string constants from your constants.php file and at least one value that is an integer constant from constants.php.
+4. Create a new file called `main.php`. In the `main.php` file bring in the `constants.php` file in a way that will make it required and that it will be brought in only one time.
+5. Now create an array variable called `array` and assign it an associative array, using key names that are string constants from your constants.php file and at least one value that is an integer constant from `constants.php`.
 6. Now create an integer variable called `result` and assign it the output of the multiplication of two or more array values. In this equation you should use array keys that are constants defined in `constants.php`.
 7. Now print out the result as a string in the format of: `"The result of X * Y is: Z"`. Create this message WITHOUT string concatenation and without reassigning any new variables.
 8. Now refactor the printed string to use string concatenation.
