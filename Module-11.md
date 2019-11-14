@@ -1,44 +1,54 @@
-# Module 11: REST
+# Module 11: Reusable Code in Packages
 
 ***
 
 ## Getting Started
 
-In completing this module you may use 3rd-party libraries to help you accomplish your goals if you wish to do so.
+Creating packages to hold reusable code is a very important practice. For this task you will need to build a GUI package that has self-contained functionality. It should have the ability to be used in your existing Laravel application which is where you'll need to show its implementation.
 
-For this module, **create a new Git branch for your Laravel application from Module 10**, and call the branch `rest`.
-
-The link below may provide some valuable insight.
-
-- [Designing a Secure REST (Web) API without OAuth](http://web.archive.org/web/20150908221444/http://www.thebuzzmedia.com/designing-a-secure-rest-api-without-oauth-authentication)
+Create a new branch in your GitHub 'Laravel-Test' repo called `package` and commit all the work from this module there.
 
 ***
 
 ## Completing the Module
 
-### Part 1: Integrating a REST API
+### Test Requirements
 
-1. Create a new __resourceful__ controller that obeys proper REST conventions for managing CRUD operations for any model that you already have in your application.  Alternatively, if you'd like you can create a new model for this purpose. We'll refer to this controller as your "API controller".
-2. Your API controller should output JSON along with the proper HTTP status code for each request/response. Any responses should contain relevant data about the outcome or condition of the request that was made.
+1. Should contain a [Laravel service provider](http://laravel.com/docs/master/packages) for Laravel integration.
+2. Your package should use template or "partial" files to contain the HTML for each GUI element. This will allow you to later update the HTML if needed.
+3. Your package should provide static functions that can be used in your views. The functions should accept data objects or values and output the appropriate GUI element with the data contained in it.
 
-### Part 2: API Authentication
+Example blade view code (note: you don't have to use these namespaces and class names, they are just for example):
 
-1. Create a new __resourceful__ controller, model and associated views for managing multiple api consumers. Each API consumer should at a minimum have attributes for api_key and shared_secret. You'll use these attributes later to authenticate the API client.
+_Now would be a good time to review the difference between `{{` and `{!!` in Blade._
 
-> Most APIs require some sort of query authentication: a method of signing API requests with an API key and signature. The signature is usually generated using a shared secret. When you're consuming an API, there should be easy to follow steps to create signatures and authenticate your API requests. When you're writing your own API, you have to create both server-side signature validation and a client-side signature creation strategy.
+````
+{!! \RealpageLouisville\GuiLibrary\Table::summary($multiDimArray, $options); !!}
+{!! \RealpageLouisville\GuiLibrary\Button::normal('click me', $target); !!}
+{!! \RealpageLouisville\GuiLibrary\Link::normal('link to something', $target); !!}
+````
 
-2. Modify the API controller you created in Part 1 to to handle server-side signature validation of the API request. You'll need to integrate the API consumer records with their key and shared secret attributes that you created in the step above.
+### Required GUI Elements
 
-### Part 3: An API Client
+1. **Table**: Should accept a multi-dimensional array with key-names as columns. Additionally the table component should accept some other arguments that format the table as you choose.
+2. **Dropdown**: Should accept an array of key-values for the options list and some way to indicate the selected element if an item is to be selected.
+3. **Link**: Should accept the link text, link target and options.
+4. **Textfield**: Should accept name and data to display as well as options.
+5. **Label**: Should accept text content and "for" attribute as well as options.
 
-Create a new Git repo called `rest-client-ex`. In this repo you will create a collection of PHP code which will consume your API. Use your own judgement on how you'd like to setup this client application. You could make another Laravel app, or even plain PHP files. You be the judge.
+### Other Items
 
-1. Create rest-client code that executes each REST endpoint of your API controller. In doing this, you'll need to handle the client-side (API/REST client) signature creation.
+1. **Assets**: Your package should contain at least one (1) CSS stylesheet and one (1) Javascript file. The implementation of the Javascript and CSS is up to you. These assets should be available to the rest of your application. See [this reference](https://laravel.com/docs/5.1/packages#public-assets).
+2. **README**: Your package must include a `README.md` file written in Markdown syntax that includes documentation on how to install your package as well as code usage examples.
+
+### Displaying Your Work
+
+1. Create a new view in your Laravel app at the URI /package which will render an HTML view that displays an example of each GUI component you've created.
 
 ***
 
 ## Wrapping Up
 
-When you are done, push your code to GitHub. Please create a tag called `v2.0` with a message of `"ready for review"` in both your Laravel app repo and the new `rest-client-ex` repo. Be sure your tags are pushed to the remote repository and are visible in GitHub.
+When you are done, push your code to GitHub. Please create a tag called `v2.0` with a message of `"ready for review"`. Be sure your tags are pushed to the remote repository and are visible in GitHub.
 
-Create an issue titled **Review Module 11 - REST** and assign it to [**@generationtux-helmsmen**](https://github.com/generationtux-helmsmen).
+Create an issue titled **Review Module 12 - Reusable Code in Packages** and assign it to [**@generationtux-helmsmen**](https://github.com/generationtux-helmsmen).
