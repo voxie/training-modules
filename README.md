@@ -18,10 +18,9 @@ This branch of the training modules repository is specific to PHP web developmen
 5. [PHP Coding Standards](Module-05.md)
 6. [Test Driven Development (TDD)](Module-06.md)
 7. [PHP Documentation Standards](Module-07.md)
-8. [Advanced TDD](Module-08.md)
-9. [Architecture](Module-09.md)
-10. Depending on the type of work you're doing, choose either the Laravel or Lumen module.
-  * a. [Laravel PHP Framework](Module-10a.md) - Full PHP framework.
-  * b. [Lumen PHP Framework](Module-10b.md) - Micro-framework by Laravel intended for microservices and APIs.
-11. [REST](Module-11.md)
-12. [Reusable Code in Packages](Module-12.md)
+8. [Architecture](Module-08.md)
+9. Depending on the type of work you're doing, choose either the Laravel or Lumen module.
+  * a. [Laravel PHP Framework](Module-9a.md) - Full PHP framework.
+  * b. [Lumen PHP Framework](Module-9b.md) - Micro-framework by Laravel intended for microservices and APIs.
+10. [REST](Module-10.md)
+11. [Reusable Code in Packages](Module-11.md)
