@@ -1,4 +1,4 @@
-# Module 9: Architecture
+# Module 8: Architecture
 
 ***
 

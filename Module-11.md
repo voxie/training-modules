@@ -1,4 +1,4 @@
-# Module 12: Reusable Code in Packages
+# Module 11: Reusable Code in Packages
 
 ***
 

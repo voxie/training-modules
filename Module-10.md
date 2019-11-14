@@ -1,4 +1,4 @@
-# Module 11: REST
+# Module 10: REST
 
 ***
 
