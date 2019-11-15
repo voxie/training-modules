@@ -89,7 +89,7 @@ Create a new branch in your PHP Git repository called `advanced` and push your c
 2. Create a simple PHP application **that does not use an existing framework or 3rd party libraries** and has the characteristics listed below.
 3. Note that this exercise should be kept as simple as possible. **Do not develop beyond the feature requirements below.**
 
-> Before you begin building this web application, copy over the final _docker-compose.yaml_ file you created as part of Module 3.
+> Before you begin building this web application, copy over the final _docker-compose.yaml_ file you created as part of Module 3. Be sure place your php entry file (e.g. index.php) under a public directory in your application. The nginx configuration is set to look for the index.php there.
 
 #### Feature Requirements
 
