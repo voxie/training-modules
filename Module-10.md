@@ -6,7 +6,7 @@
 
 In completing this module you may use 3rd-party libraries to help you accomplish your goals if you wish to do so.
 
-For this module, **create a new Git branch for your Laravel application from Module 10**, and call the branch `rest`.
+For this module, **create a new Git branch for your Laravel application from Module 9**, and call the branch `rest`.
 
 The link below may provide some valuable insight.
 
@@ -41,4 +41,4 @@ Create a new Git repo called `rest-client-ex`. In this repo you will create a co
 
 When you are done, push your code to GitHub. Please create a tag called `v2.0` with a message of `"ready for review"` in both your Laravel app repo and the new `rest-client-ex` repo. Be sure your tags are pushed to the remote repository and are visible in GitHub.
 
-Create an issue titled **Review Module 11 - REST** and assign it to [**@generationtux-helmsmen**](https://github.com/generationtux-helmsmen).
+Create an issue titled **Review Module 10 - REST** and assign it to [**@generationtux-helmsmen**](https://github.com/generationtux-helmsmen).
