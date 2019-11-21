@@ -1,4 +1,4 @@
-# Module 9a: Laravel PHP Framework
+# Module 9: Laravel PHP Framework
 
 ***
 
