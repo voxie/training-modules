@@ -63,4 +63,4 @@ When building your application and meeting a specific criteria below, you should
 
 When you are done, push your code to GitHub. Please create a tag called `v1.8a` with a message of `"ready for review"`.  Be sure your tags are pushed to the remote repository and are visible in GitHub.
 
-Create an issue titled **Review Module 10a - Laravel PHP Framework** and assign it to [**@generationtux-helmsmen**](https://github.com/generationtux-helmsmen).
+Create an issue titled **Review Module 9 - Laravel PHP Framework** and assign it to [**@generationtux-helmsmen**](https://github.com/generationtux-helmsmen).
